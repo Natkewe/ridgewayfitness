@@ -267,7 +267,7 @@ address {
   text-align: center;
 }
 
-/* BUTTON STYLES AND BORDERS FOR MEMBERSHIP OPTIONS */
+/* BUTTON STYLES FOR ALL LINK OPTIONS */
 
 .button1 {background-color: #E69C95;}
 .button2 {background-color: #E69C95;}
@@ -300,32 +300,7 @@ address {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.scrollmenu {
-  background-color: white;
-  overflow: auto;
-  white-space: nowrap;
-}
-
-.scrollmenu table {
-  text-align: center;
-  padding-bottom: 14px;
-  text-decoration: none;
-}
-
-.scrollmenu table:hover {
+.scrollmenu tbody:hover {
   background-color: #E69C95;
 }
 
@@ -333,6 +308,7 @@ address {
 /* TIMETABLE TABLE LAYOUT */
 table {
     border-spacing: 0px;
+    width: 100%;
 }
 
 th, td {
@@ -376,10 +352,39 @@ tr .head th:last-child {
     border-top-right-radius: 5px;
 }
 
-.sign-in-banner, .timetable-banner img {
+/* TIMETABLE PAGE - SCROLL BAR UNDER TABLE */
+.scrollmenu {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu table {
+  text-align: center;
+  padding-bottom: 14px;
+  text-decoration: none;
+
+  border-spacing: 0px;
   width: 100%;
   height: auto;
 }
+
+
+
+
+
+
+
+
+.sign-in-banner img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
 
 
 /* GALLERY */
@@ -410,14 +415,14 @@ tr .head th:last-child {
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 4000px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .responsive {
     width: 100%;
   }
@@ -429,19 +434,13 @@ tr .head th:last-child {
   clear: both;
 }
 
-
-
-
-
-
-
-
-
 .row-box:after {
   content: "";
   display: table;
   clear: both;
 }
+
+
 
 /* SIGN-UP PAGE */
 /* PHOTO BANNER ON SIGN UP PAGE*/
@@ -466,6 +465,9 @@ tr .head th:last-child {
 }
 
 
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .row-two-left, .row-two-right, .row-four-left, .row-four-right {   
@@ -489,3 +491,18 @@ tr .head th:last-child {
   }
 }
 
+
+/* GALLERY IMAGES ON TIMETABLE PAGE */
+/* Responsive layout - make both boxes stay next to each other and not go into 4 photos on line */
+@media only screen and (max-width: 4000px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two photos stack on top of each other instead of next to each other */
+@media only screen and (max-width: 800px) {
+  .responsive {
+    width: 100%;
+  }
+}
