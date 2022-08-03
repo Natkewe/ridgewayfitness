@@ -13,7 +13,6 @@ body{
   background: #bfbfbf;
 }
 
-
 /* Header/Blog Title */
 .header {
   padding: 50px;
@@ -24,12 +23,13 @@ body{
   
 
 .container {
-  width: 100%;
-  height: 600px;
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
 }
 
 .item {
-  height: 600px;
+  height: 400px;
 }
 
 /* RIDGEFIELD H1 HEADING AND SHADOW */
@@ -62,8 +62,6 @@ h2 {
 line-height: 1.8em;
 }
 
-
-
 /* TOP NAV STYLE */
 .topnav {
   overflow: hidden;
@@ -72,7 +70,7 @@ line-height: 1.8em;
   border: 1px solid #000000;
   }
   
-  
+
   /* STYLE THE TOP NAV LINKS */
   .topnav a {
   float: left;
@@ -86,29 +84,28 @@ line-height: 1.8em;
   border-right: 1px dotted #000000;
   }
 
-
 /* CHANGE COLOUR ON HOVER */
 .topnav a:hover {
 background-color: #E69C95;
 color: #f9f7f0;
 }
 
-
 /* FIRST ROW */
 /* BANNER ROW - TALKING ABOUT RIDGEFIELD */
 .row-box-banner {
-  background-color: #ffffff;
-  padding: 60px;
   font-size: large;
+  padding: 60px;
+ 
   text-align: center;
+  background-color: #ffffff;
 }
 
 /* BOX BACKGROUNDS */
 .row-box {
-  background-color: #ffffff;
-  padding: 10px;
-  margin-top: 10px;
   font-size: large;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffffff;
 }
 
 .banner {
@@ -126,17 +123,49 @@ color: #f9f7f0;
 /* SECOND ROW */
 /* FACILITIES BOX AND EQUIPMENT BOX */
 #facilities-box { /* text style of paragraph */
-  text-align: center;
   font-size: large;
   padding: 15px 0 20px 0;
+  text-align: center;
 }
 
-#strong-image { /* size of image in box */
+
+#facilities-box-two p {
+  font-size: large;
+  padding: 15px 0 20px 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* size of image in box 
+.strong-image { 
   width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
+
+
+
+
+
+
+
+
+
 
 .row-two-left {  
   float: left;
@@ -151,8 +180,6 @@ color: #f9f7f0;
   padding: 10px;
   
 }
-
-
 
 /* SIGN IN PAGE */
 /* SIGN IN BOXES */
@@ -176,15 +203,12 @@ color: #f9f7f0;
   background-color: #bfbfbf;
 }
 
-
-
-
-
 /* THIRD ROW */
 /* MAP BOX */
 .map {
   overflow: hidden;
   width: 100%;
+  height: 400px;
 }
 
 
@@ -236,8 +260,6 @@ address {
   border: 0;
 }
 
-
-
 /* FORTH ROW */
 /* BANNER IMAGE BACKGROUND OF WEIGHTS */
 .banner-image {
@@ -247,10 +269,9 @@ address {
   background-size: 100% 100%;
 }
 
-
-
 /* FIFTH ROW */
 /* TWO BOXES FOR MEMBERSHIP OPTIONS */
+
 #membership-box {
   padding: 10px;
   margin: 5;
@@ -258,6 +279,26 @@ address {
   background-color: #4C5958;
   text-align: center;
 }
+
+#membership-box-left {
+  padding: 10px;
+  color: #f9f7f0;
+  background-color: #4C5958;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #fullaccess {
   padding: 10px;
@@ -288,7 +329,6 @@ address {
   letter-spacing: 4px;
 }
 
-
 /* STYLING FOR H2 HEADINGS */
 /* BACKGROUND TO THE OPENING TIMES AND CONTACT INFO */
 .fakeimg {
@@ -296,9 +336,6 @@ address {
   width: 100%;
   padding: 20px;
 }
-
-
-
 
 .scrollmenu tbody:hover {
   background-color: #E69C95;
@@ -363,29 +400,10 @@ tr .head th:last-child {
   text-align: center;
   padding-bottom: 14px;
   text-decoration: none;
-
   border-spacing: 0px;
   width: 100%;
   height: auto;
 }
-
-
-
-
-
-
-
-
-.sign-in-banner img {
-  width: 100%;
-  height: auto;
-}
-
-
-
-
-
-
 
 /* GALLERY */
 /* GALLERY */
@@ -396,8 +414,21 @@ tr .head th:last-child {
 .gallery, img {
   width: 100%;
   height: auto;
+  vertical-align: middle;
   background-color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .desc {
   padding: 20px 15px 10px 15px;
@@ -439,7 +470,6 @@ tr .head th:last-child {
   display: table;
   clear: both;
 }
-
 
 
 /* SIGN-UP PAGE */
