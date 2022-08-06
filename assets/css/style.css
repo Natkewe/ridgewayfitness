@@ -70,7 +70,6 @@ line-height: 1.8em;
   border: 1px solid #000000;
   }
   
-
   /* STYLE THE TOP NAV LINKS */
   .topnav a {
   float: left;
@@ -118,8 +117,6 @@ color: #f9f7f0;
   text-align: center;
 }
 
-
-
 /* SECOND ROW */
 /* FACILITIES BOX AND EQUIPMENT BOX */
 #facilities-box { /* text style of paragraph */
@@ -128,26 +125,11 @@ color: #f9f7f0;
   text-align: center;
 }
 
-
 #facilities-box-two p {
   font-size: large;
   padding: 15px 0 20px 0;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* size of image in box 
@@ -157,14 +139,6 @@ color: #f9f7f0;
   margin-left: auto;
   margin-right: auto;
 } */
-
-
-
-
-
-
-
-
 
 
 .row-two-left {  
@@ -241,8 +215,37 @@ address {
 }
 
 /* FORTH ROW */
-/* TABLE DATA OPENING HOURS */
-#contact-box {
+/* EMAIL AND CONTACT INFO */
+#contact-box, #contact-box-left {
+  color: 000000;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+
+#hours-left {
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: large;
+}
+
+#hours-right {
+ float: right;
+ letter-spacing: 4px;
+ font-size: large;
+}
+
+
+/*
+#contact-box-table tr th {
+  padding: 8px;
+  text-align: left;
+  border: 0;
+}
+ TABLE DATA OPENING HOURS 
+#contact-box-left {
   color: 000000;
   font-weight: bold;
   font-style: normal;
@@ -252,13 +255,21 @@ address {
 #contact-box-table {
   border-collapse: collapse;
   width: 100%;
+  padding: 8px;
 }
 
-#contact-box-table tr th {
-  padding: 8px;
-  text-align: left;
-  border: 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FORTH ROW */
 /* BANNER IMAGE BACKGROUND OF WEIGHTS */
@@ -272,7 +283,7 @@ address {
 /* FIFTH ROW */
 /* TWO BOXES FOR MEMBERSHIP OPTIONS */
 
-#membership-box {
+#membership-box, #box-left {
   padding: 10px;
   margin: 5;
   color: #f9f7f0;
@@ -280,26 +291,7 @@ address {
   text-align: center;
 }
 
-#membership-box-left {
-  padding: 10px;
-  color: #f9f7f0;
-  background-color: #4C5958;
-  text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
 #fullaccess {
   padding: 10px;
   margin: 5;
