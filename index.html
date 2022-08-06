@@ -12,18 +12,24 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <header>
     <div class="header">
       <div class="big">
         <h1>RIDGEWAY FITNESS</h1>
         <p>CHALLENGE. ACCOMPLISH. FOCUS. COURAGE.</p>
       </div>
     </div>
-  <div class="topnav">
-    <a href="membership.html">Membership</a>
-    <a href="sign-in.html">Sign-Up/Sign-In</a>
-    <a href="timetable.html">Timetable</a>
-    <a href="index.html">Home</a>
-  </div>
+  <nav>
+   <div class="topnav">
+    <ul id="menu">
+      <li><a href="membership.html">Membership</a></li>
+      <li><a href="sign-in.html">Log In</a></li>
+      <li><a href="timetable.html">Timetable</a></li>
+      <li><a class="active-menu" href="index.html">Home</a></li>
+    </ul>
+   </div>
+  </nav>
+  </header>
   
   <!--TOP BOX -->
   <section>
@@ -174,9 +180,9 @@
         <div class="row-four-right">
           <div class="row-box">
         <h2>Opening Hours</h2>
-        <div class="fakeimg">
-    
-          
+       
+          <div class="hours-box">
+            <div class="fakeimg">
             <ul id="hours-left">
               <li>MONDAY</li>
               <li>TUESDAY</li>
@@ -195,9 +201,7 @@
               <li>06:00 - 23:00</li>
               <li>07:00 - 22:00</li>
             </ul>
-            
-        
-          
+          </div>
           </div>
           </div>
         </div>
