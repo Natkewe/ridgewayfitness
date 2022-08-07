@@ -21,7 +21,6 @@ body{
   border: 1px solid #000000;
   }
   
-
 .container {
   max-width: 1500px;
   position: relative;
@@ -34,7 +33,7 @@ body{
 
 /* RIDGEFIELD H1 HEADING AND SHADOW */
 .header h1 {
-  font-size: 50px;
+  font-size: 5vw;
   text-transform: uppercase;
   color: #f9f7f0;
   letter-spacing: 4px;
@@ -43,7 +42,7 @@ body{
   
 .header p {
 font-weight:900;
-font-size: 25px;
+font-size: 2vw;
 }
 
 /* STYLING FOR H2 HEADINGS */
@@ -63,38 +62,53 @@ line-height: 1.8em;
 }
 
 /* TOP NAV STYLE */
+#menu {
+  font-size: initial;
+  list-style-type: none;
+  letter-spacing: 2px;
+  line-height: 55px;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
-  padding: 5px 0px 5px 0px;
   border: 1px solid #000000;
   }
   
   /* STYLE THE TOP NAV LINKS */
   .topnav a {
-  float: left;
-  font-size: large;
-  display: block;
-  color: #000000;
-  text-align: center;
-  padding: 14px 14px;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-right: 1px dotted #000000;
+    display: block;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px dotted #000000;
   }
 
 /* CHANGE COLOUR ON HOVER */
 .topnav a:hover {
-background-color: #E69C95;
-color: #f9f7f0;
+  border-bottom: 3px solid #E69C95
+}
+/* COLOUR BLOCK STAYS ON HOME TAB */
+.active-menu {
+  border-bottom: 3px solid #E69C95;
 }
 
 /* FIRST ROW */
 /* BANNER ROW - TALKING ABOUT RIDGEFIELD */
 .row-box-banner {
   font-size: large;
-  padding: 60px;
- 
+  padding: 15px 50px 15px 50px;
   text-align: center;
   background-color: #ffffff;
 }
@@ -113,8 +127,27 @@ color: #f9f7f0;
   padding: 10px
 }
 
+/* banner under carousel */
+#information-banner {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
 .banner p{
   text-align: center;
+}
+
+/* Banner images for all pages */
+/* BANNER IMAGES */
+.page-image-banner {
+  border: 5px solid white;
+  margin-top: 10px;
+}
+.page-image-banner img {
+  max-height: 600px;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* SECOND ROW */
@@ -124,40 +157,26 @@ color: #f9f7f0;
   padding: 15px 0 20px 0;
   text-align: center;
 }
-
 #facilities-box-two p {
   font-size: large;
   padding: 15px 0 20px 0;
   text-align: center;
 }
-
-
-/* size of image in box 
-.strong-image { 
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-
-.row-two-left {  
+#facilities {
   float: left;
   width: 50%;
-  padding: 10px;
+  padding: 0 5px 0 0;
 }
-
-.row-two-right {
+#equipment {
   float: left;
   width: 50%;
   border: 0;
-  padding: 10px;
-  
+  padding: 0 0 0 5px;
 }
 
 /* SIGN IN PAGE */
-/* SIGN IN BOXES */
-#createaccount-box {
+/* CREATE ACCOUNT BOX */
+#createaccount-box, #login-box {
   padding: 10px;
   margin: 5;
   color: #f9f7f0;
@@ -177,14 +196,28 @@ color: #f9f7f0;
   background-color: #bfbfbf;
 }
 
+#login-box input {
+  color: #000000;
+  font-size: large;
+  font-weight: 400;
+  padding: 4px 0 4px 4px;
+  letter-spacing: 4px;
+  background-color: #bfbfbf;
+}
+
 /* THIRD ROW */
 /* MAP BOX */
+#map-banner {
+  float: right;
+  width: 100%;
+  padding: 0;
+}
+
 .map {
   overflow: hidden;
   width: 100%;
   height: 400px;
 }
-
 
 /* FOURTH ROW */
 /* OPENING HOURS AND CONTACT US */
@@ -216,6 +249,18 @@ address {
 
 /* FORTH ROW */
 /* EMAIL AND CONTACT INFO */
+#hours {
+  float: right;
+  width: 50%;
+  padding: 0 0 0 5px;
+}
+
+#contactus {
+  float: right;
+  width: 50%;
+  padding: 0 5px 0 0;
+}
+
 #contact-box, #contact-box-left {
   color: 000000;
   font-weight: bold;
@@ -223,65 +268,65 @@ address {
   text-transform: uppercase;
 }
 
-
-#hours-left {
+.fakeimg, #hours-left {
   float: left;
   text-transform: uppercase;
+  list-style-type: none;
   letter-spacing: 4px;
   font-size: large;
+  line-height: 222%;
 }
 
-#hours-right {
+.fakeimg, #hours-right {
  float: right;
  letter-spacing: 4px;
+ list-style-type: none;
  font-size: large;
+ line-height: 222%;
 }
-
-
-/*
-#contact-box-table tr th {
-  padding: 8px;
-  text-align: left;
-  border: 0;
-}
- TABLE DATA OPENING HOURS 
-#contact-box-left {
-  color: 000000;
-  font-weight: bold;
-  font-style: normal;
-  text-transform: uppercase;
-}
-
-#contact-box-table {
-  border-collapse: collapse;
-  width: 100%;
-  padding: 8px;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 /* FORTH ROW */
 /* BANNER IMAGE BACKGROUND OF WEIGHTS */
+#classes-banner {
+  float: right;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+
 .banner-image {
   background-image: url('/assets/images/dumbbell.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed; 
-  background-size: 100% 100%;
+  background-size: cover;
+  padding: 60px;
 }
+
+#fade-box {
+  text-transform: uppercase;
+  padding: 5px 2px 5px 2px;
+  letter-spacing: 3px;
+  background-color: rgba(180, 180, 180, .8);
+}
+
+
 
 /* FIFTH ROW */
 /* TWO BOXES FOR MEMBERSHIP OPTIONS */
+#membership-free {
+  float: left;
+  width: 50%;
+  padding: 0 5px 0 0;
+}
+
+#membership-full {
+  float: left;
+  width: 50%;
+  padding: 0 0 0 5px;
+}
 
 #membership-box, #box-left {
   padding: 10px;
@@ -291,17 +336,7 @@ address {
   text-align: center;
 }
 
-/*
-#fullaccess {
-  padding: 10px;
-  margin: 5;
-  color: #f9f7f0;
-  background-color: #4C5958;
-  text-align: center;
-}
-
 /* BUTTON STYLES FOR ALL LINK OPTIONS */
-
 .button1 {background-color: #E69C95;}
 .button2 {background-color: #E69C95;}
 .button1:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
@@ -333,28 +368,34 @@ address {
   background-color: #E69C95;
 }
 
+/* video banner at bottom of page */
+#video-banner {
+  float: right;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+
 /* TIMETABLE PAGE */
 /* TIMETABLE TABLE LAYOUT */
 table {
     border-spacing: 0px;
     width: 100%;
 }
-
 th, td {
-    padding: 10px 30px 10px 10px;
+    padding: 5px 5px 5px 5px;
     border-spacing: 0px;
     font-size: 100%;
     margin: 0px;
 }
-
 th, td {
     text-align: left;
     background-color: #bfbfbf;
-    border-top: 1px solid #f1f8fe;
-    border-bottom: 1px solid #cbd2d8;
-    border-right: 1px solid #cbd2d8;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
 }
-
 tr .head, th {
     color: #ffffff;
     background-color: #4c5958;
@@ -362,7 +403,7 @@ tr .head, th {
     border-right: 1px solid;
     border-top: 1px solid;
     text-align: center;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.13em;
 }
 
 td {
@@ -397,6 +438,60 @@ tr .head th:last-child {
   height: auto;
 }
 
+/* Close the Ridgefield Fitness h1 and p 'big' gap - Responsive layout - when the screen is less than 450px wide */
+@media screen and (max-width: 900px) {
+  .big h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .big p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .big h1 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 548px) {
+  .big p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .big h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 502px) {
+  .big p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  .topnav .menu, ul li {
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 386px) {
+  .topnav .menu, ul li {
+    letter-spacing: 1px;
+  }
+}
+
+
+
+
+
+
+
+
+
 /* GALLERY */
 /* GALLERY */
 .gallery {
@@ -406,21 +501,11 @@ tr .head th:last-child {
 .gallery, img {
   width: 100%;
   height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
   vertical-align: middle;
   background-color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .desc {
   padding: 20px 15px 10px 15px;
@@ -492,7 +577,7 @@ tr .head th:last-child {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .row-two-left, .row-two-right, .row-four-left, .row-four-right {   
+  #facilities, #equipment, #hours, #contactus, #membership-free, #membership-full {   
     width: 100%;
     padding: 0;
   }
@@ -506,14 +591,6 @@ tr .head th:last-child {
   }
 }
 
-/* Close the Ridgefield Fitness h1 and p 'big' gap - Responsive layout - when the screen is less than 450px wide*/
-@media screen and (max-width: 800px) {
-  #big {
-    line-height: 1.2em;
-  }
-}
-
-
 /* GALLERY IMAGES ON TIMETABLE PAGE */
 /* Responsive layout - make both boxes stay next to each other and not go into 4 photos on line */
 @media only screen and (max-width: 4000px) {
@@ -526,5 +603,107 @@ tr .head th:last-child {
 @media only screen and (max-width: 800px) {
   .responsive {
     width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* desktop min width above 1024px screen size */
+/* desktop min width above 1024px screen size *
+@media screen and (min-width: 1024px) {
+  .big h1 {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .big p {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 889px) {
+  .topnav li {
+    width: 25%;
+    margin: auto;
+  }
+}
+/* tablet min width above 768px and max width below 1023px */
+/* tablet min width above 768px and max width below 1023px */
+
+
+/* smartphone max width */
+/* smartphone max width */
+@media screen and (max-width: 907px) {
+  .big h1 {
+    font-size: 45.35px;
+  }
+}
+
+@media screen and (max-width: 731px) {
+  .big h1 {
+   
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 731px) {
+  .big p {
+    margin: auto;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .topnav li {
+    width: 25%;
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+}
+
+/* smartphone max width */
+/* smartphone max width */
+@media screen and (max-width: 580px) {
+  .topnav li {
+    margin: auto;
+    width: 100%;
+    line-height: 40px;
+    padding-bottom: 0;
+    letter-spacing: 4px;
+    border-bottom: 0.1px solid #000000;
+  }
+}
+
+
+
+@media screen and (max-width: 562px) {
+  .big h1 {
+   
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 562px) {
+  .big p {
+   
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 53px) { /* make menu boxes stack on each other */
+  .topnav li {
+    width: 100%;
+   
+    line-height: 40px;
+    padding-bottom: 0;
+    border-bottom: 0.1px solid #000000;
   }
 }
