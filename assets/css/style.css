@@ -27,6 +27,18 @@ body{
   margin: auto;
 }
 
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2500px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+
 .item {
   height: 400px;
 }
@@ -127,6 +139,20 @@ line-height: 1.8em;
   padding: 10px
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* banner under carousel */
 #information-banner {
   margin-top: 10px;
@@ -179,10 +205,10 @@ line-height: 1.8em;
 #createaccount-box, #login-box {
   padding: 10px;
   margin: 5;
-  color: #f9f7f0;
   font-size: large;
   letter-spacing: 4px;
-  background-color: #4C5958;
+  width: 100%;
+  background-color: rgba(138, 166, 163, .2);
   text-transform: uppercase;
 }
 
@@ -193,7 +219,7 @@ line-height: 1.8em;
   font-weight: 400;
   padding: 4px 0 4px 4px;
   letter-spacing: 4px;
-  background-color: #bfbfbf;
+  width: 50%;
 }
 
 #login-box input {
@@ -202,8 +228,25 @@ line-height: 1.8em;
   font-weight: 400;
   padding: 4px 0 4px 4px;
   letter-spacing: 4px;
-  background-color: #bfbfbf;
+  width: 50%;
 }
+
+label, #username {
+  padding: 10px 10px 5px 0;
+}
+
+#signup-pages-left, #signup-pages-right {
+  width: 50%;
+  float: left;
+  margin: auto;
+}
+#signup-pages-left {
+  padding-right: 5px;
+}
+#signup-pages-right {
+  padding-left: 5px;
+}
+
 
 /* THIRD ROW */
 /* MAP BOX */
@@ -332,7 +375,7 @@ address {
   padding: 10px;
   margin: 5;
   color: #f9f7f0;
-  background-color: #4C5958;
+  background-color: rgba(76, 89, 88, .8);
   text-align: center;
 }
 
@@ -344,7 +387,6 @@ address {
 
 .button {
   border: none;
-  color: white;
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
@@ -352,6 +394,7 @@ address {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
@@ -359,7 +402,7 @@ address {
 /* STYLING FOR H2 HEADINGS */
 /* BACKGROUND TO THE OPENING TIMES AND CONTACT INFO */
 .fakeimg {
-  background-color: #8AA6A3;
+  background-color: rgba(138, 166, 163, .3);
   width: 100%;
   padding: 20px;
 }
@@ -572,6 +615,10 @@ tr .head th:last-child {
 }
 
 
+
+
+
+
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
 
@@ -580,14 +627,7 @@ tr .head th:last-child {
   #facilities, #equipment, #hours, #contactus, #membership-free, #membership-full {   
     width: 100%;
     padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
+    margin: auto;
   }
 }
 
@@ -609,16 +649,6 @@ tr .head th:last-child {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* desktop min width above 1024px screen size */
 /* desktop min width above 1024px screen size *
 @media screen and (min-width: 1024px) {
@@ -626,18 +656,7 @@ tr .head th:last-child {
     margin: auto;
   }
 }
-@media screen and (min-width: 1024px) {
-  .big p {
-    margin: auto;
-  }
-}
 
-@media screen and (max-width: 889px) {
-  .topnav li {
-    width: 25%;
-    margin: auto;
-  }
-}
 /* tablet min width above 768px and max width below 1023px */
 /* tablet min width above 768px and max width below 1023px */
 
@@ -652,28 +671,31 @@ tr .head th:last-child {
 
 @media screen and (max-width: 731px) {
   .big h1 {
-   
     font-size: 40px;
   }
-}
-@media screen and (max-width: 731px) {
   .big p {
     margin: auto;
     font-size: 18px;
   }
 }
+
 @media screen and (max-width: 870px) {
   .topnav li {
     width: 25%;
     font-size: 16px;
     letter-spacing: 0;
+   
   }
 }
-
-/* smartphone max width */
-/* smartphone max width */
-@media screen and (max-width: 580px) {
-  .topnav li {
+/* carousel height */
+@media screen and (max-width: 640px) {
+  #myCarousel .carousel-inner .item, img {
+    height: 25%;
+    
+  }
+}
+@media screen and (max-width: 580px) { /* heading and nav bar */
+  .topnav li { 
     margin: auto;
     width: 100%;
     line-height: 40px;
@@ -681,29 +703,36 @@ tr .head th:last-child {
     letter-spacing: 4px;
     border-bottom: 0.1px solid #000000;
   }
+  #createaccount-box input {
+    width: 100%;
+    margin: auto;
+  }
+  #login-box input {
+    width: 100%;
+    margin: auto;
+  }
 }
-
-
 
 @media screen and (max-width: 562px) {
   .big h1 {
-   
-    font-size: 38px;
+   font-size: 38px;
   }
-}
-@media screen and (max-width: 562px) {
   .big p {
-   
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 53px) { /* make menu boxes stack on each other */
-  .topnav li {
-    width: 100%;
-   
-    line-height: 40px;
-    padding-bottom: 0;
-    border-bottom: 0.1px solid #000000;
+@media screen and (max-width: 528px) { /* heading and nav bar */
+  .header {
+    padding: 20.9px 50px 20.9px 50px;
   }
+}
+
+/* smartphone max width */
+/* smartphone max width */
+
+
+
+.col-form-label {
+  padding-top: 15px;
 }

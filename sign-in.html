@@ -22,9 +22,9 @@
    <div class="topnav">
     <ul id="menu">
       <li><a href="membership.html">Membership</a></li>
-      <li><a href="sign-in.html">Log In</a></li>
+      <li><a class="active-menu"  href="sign-in.html">Log In</a></li>
       <li><a href="timetable.html">Timetable</a></li>
-      <li><a class="active-menu" href="index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
     </ul>
    </div>
   </nav>
@@ -34,52 +34,56 @@
  <!-- IMAGE OF PEOPLE WITH ROPES -->
  <div class="page-image-banner">
   <figure>
-    <img src="/assets/images/signupbanner.jpg" alt="A woman exercising on the floor" width="100">
+    <img src="/assets/images/signin.jpg" alt="A woman exercising on the floor" width="100">
   </figure>
  
 </div>
 
   <!--  SECOND ROW - TWO BOXES -->
   <!-- FREE PASS-->
-  <section>
-    <div class="row-two-left">
+  <section id="signup-pages-left">
       <div class="row-box">
         <h2>Log In</h2>
           <div id="createaccount-box">
           <form class="accountform" action="/action_page.php" method="get">
-          <label for="username">Username:</label><br>
-          <input type="text" id="username" name="username" value="Username"><br>
+         
+            <label for="username">Username:</label><br>
+          <input type="text" id="username" class="form-control" name="username" placeholder="username">
+            
           <label for="pwd">Password:</label><br>
-          <input type="password" id="pwd" name="pwd"><br><br>
-          <button class="button button2" onclick="window.location.href='/timetable.html'">LOG IN</button><br><br>
+          <input type="password" id="pwd1" class="form-control" name="pwd1">
+          <button class="button button2" onclick="window.location.href='/timetable.html'">LOG IN</button>
         </form>
       </div>
    </div>
-  </div>
 </section>
 
 <!-- CREATE ACCOUNT -->
-<section>
-    <div class="row-two-right">
+<section id="signup-pages-right">
       <div class="row-box">
        <h2>CREATE AN ACCOUNT</h2>
        <div id="login-box">
        <form class="accountform" action="/action_page.php" method="post">
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" value="John"><br>
+
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" class="form-control" placeholder="first name">
+
       <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" value="Doe"><br>
-      <label for="email">Enter your email:</label><br>
-      <input type="email" id="email" name="email"><br>
-      <label for="email">Repeat your email:</label><br>
-      <input type="email" id="email" name="email"><br>
+      <input type="text" id="lname" name="lname" class="form-control" placeholder="last name">
+
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" class="form-control" name="email">
+
+      <label for="email">Repeat your email:</label>
+      <input type="email" id="email" class="form-control" name="email">
+
       <label for="pwd">Password:</label><br>
-      <input type="password" id="pwd" name="pwd"><br><br>
-      <button class="button button2" onclick="window.location.href='/timetable.html'">CREATE ACCOUNT</button>
+      <input type="password" id="pwd" class="form-control" name="pwd">
+
+      <button class="button button2 form-control" onclick="window.location.href='/timetable.html'">CREATE ACCOUNT</button>
     </form> 
     </div>
     </div>
-   </div>
 </section>
 
 </body>
