@@ -27,17 +27,12 @@ body{
   margin: auto;
 }
 
-
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 2500px;
   position: relative;
   margin: auto;
 }
-
-
-
 
 .item {
   height: 400px;
@@ -101,6 +96,7 @@ line-height: 1.8em;
     display: block;
     color: #000000;
     text-align: center;
+    font-size: 18px;
     text-transform: uppercase;
     padding-right: 10px;
     padding-left: 10px;
@@ -114,6 +110,10 @@ line-height: 1.8em;
 /* COLOUR BLOCK STAYS ON HOME TAB */
 .active-menu {
   border-bottom: 3px solid #E69C95;
+}
+
+a {
+  color:#000000;
 }
 
 /* FIRST ROW */
@@ -139,19 +139,9 @@ line-height: 1.8em;
   padding: 10px
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.community-icons {
+  display: block;
+}
 
 /* banner under carousel */
 #information-banner {
@@ -234,7 +224,7 @@ line-height: 1.8em;
 label, #username {
   padding: 10px 10px 5px 0;
 }
-
+/* INPUT TEXT BOX FOR THE WRITTING */
 #signup-pages-left, #signup-pages-right {
   width: 50%;
   float: left;
@@ -246,6 +236,8 @@ label, #username {
 #signup-pages-right {
   padding-left: 5px;
 }
+
+
 
 
 /* THIRD ROW */
@@ -288,7 +280,36 @@ address {
 .contact-icons {
   display: block;
   float: right;
+  color: #4c5958;
 }
+/* account benefits information and icons */
+.ticktwo {
+  vertical-align: middle;
+  color: #4c5958;
+}
+
+.benefits-box {
+  text-transform: capitalize;
+}
+
+.benefits-box, h2 {
+  padding: 5px;
+}
+
+.benefits-box, i {
+  display: inline-block;
+  text-align: left;
+}
+
+.benefits-box, p {
+  display: inline-block;
+  font-style: none;
+  letter-spacing: 0;
+}
+
+
+
+
 
 /* FORTH ROW */
 /* EMAIL AND CONTACT INFO */
@@ -379,6 +400,10 @@ address {
   text-align: center;
 }
 
+
+
+
+
 /* BUTTON STYLES FOR ALL LINK OPTIONS */
 .button1 {background-color: #E69C95;}
 .button2 {background-color: #E69C95;}
@@ -387,14 +412,16 @@ address {
 
 .button {
   border: none;
-  padding: 10px 10px;
+  padding: 10px 0 10px 0;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
   color: #000000;
+  height: auto;
+  width: 50%;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
@@ -684,24 +711,12 @@ tr .head th:last-child {
     width: 25%;
     font-size: 16px;
     letter-spacing: 0;
-   
   }
-}
-/* carousel height */
-@media screen and (max-width: 640px) {
-  #myCarousel .carousel-inner .item, img {
-    height: 25%;
-    
-  }
-}
-@media screen and (max-width: 580px) { /* heading and nav bar */
-  .topnav li { 
-    margin: auto;
+  #signup-pages-left {
     width: 100%;
-    line-height: 40px;
-    padding-bottom: 0;
-    letter-spacing: 4px;
-    border-bottom: 0.1px solid #000000;
+  }
+  #signup-pages-right {
+    width: 100%;
   }
   #createaccount-box input {
     width: 100%;
@@ -712,7 +727,29 @@ tr .head th:last-child {
     margin: auto;
   }
 }
+/* carousel height */
+@media screen and (max-width: 640px) {
+  #myCarousel .carousel-inner .item, img {
+    height: 25%;
+  }
+}
+/* smartphone max width */
+/* smartphone max width */
+@media screen and (max-width: 580px) { /* heading and nav bar */
+  .topnav li { 
+    margin: auto;
+    width: 100%;
+    line-height: 40px;
+    padding-bottom: 0;
+    letter-spacing: 4px;
+    border-bottom: 0.1px solid #000000;
+  }
+}
 
+
+
+/* smartphone max width */
+/* smartphone max width */
 @media screen and (max-width: 562px) {
   .big h1 {
    font-size: 38px;
@@ -722,14 +759,50 @@ tr .head th:last-child {
   }
 }
 
+/* smartphone max width */
+/* smartphone max width */
 @media screen and (max-width: 528px) { /* heading and nav bar */
   .header {
     padding: 20.9px 50px 20.9px 50px;
   }
+  .topnav a {
+    font-size: 16px;
+  }
+  #signup-pages-left, h2 {
+    font-size: 22px;
+  }
+  #signup-pages-left, p {
+    font-size: 16px;
+  }
+  .accountform, .form-control {
+    font-weight: 0;
+    padding: 2px 0px 2px 0;
+    letter-spacing: 2px;
+  }
+  label {
+    padding: 5px 0 5px 0;
+  }
 }
+
+
+
 
 /* smartphone max width */
 /* smartphone max width */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
