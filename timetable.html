@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -23,24 +22,24 @@
      <div class="topnav">
       <ul id="menu">
         <li><a href="membership.html">Membership</a></li>
-        <li><a href="sign-in.html">Log In</a></li>
-        <li><a href="timetable.html">Timetable</a></li>
-        <li><a class="active-menu" href="index.html">Home</a></li>
+        <li><a href="sign-in.html">Sign In</a></li>
+        <li><a class="active-menu" href="timetable.html">Timetable</a></li>
+        <li><a href="index.html">Home</a></li>
       </ul>
      </div>
     </nav>
     </header>
-  
   <!--TOP BOX -->
   <section>
     <div class="page-image-banner">
-      <img src="/assets/images/ropesbanner.jpg" width="100">
+      <figure>
+      <img src="/assets/images/ropesbanner.jpg" alt="Photo of two people exercising using ropes" width="100">
+      </figure>
     </div>
   </section>
-
- <!-- FOURTH ROW -->
-  <!-- BANNER WITH CLASSES LINK -->
+  <!-- timetable-->
   <section>
+    <div class="timetable-box">
     <div class="banner">
        <div class="row-box">
           <h2>CLASSES TIMETABLE</h2>
@@ -84,7 +83,6 @@
                 <td colspan="2">Pump<br>(90min)</td>
                 <td></td>
             </tr>
-            
             <tr class="even">
                 <th>Thursday</th>
                 <td>Cardio<br>(45min)</td>
@@ -130,15 +128,14 @@
         </div>
          </div>
       </div>
+    </div>
     </section>
-    
  <!-- GALLERY -->
-    <section>
-
+    <section id="timetable-gallery">
 <div class="responsive">
   <div class="gallery">
-      <img src="/assets/images/yoga.jpg" alt="Two people doing Yoga" width="600" height="400">
-      <div class="desc">Our Pilates and Yoga classes focus on control and technique, and moving slowly with good form</div>
+      <img src="/assets/images/stretching.jpg" alt="Two people doing Yoga" width="600" height="400">
+      <div class="desc">Our Pilates and Yoga classes focus on control and technique by moving slowly with good form throughout</div>
   </div>
 </div>
 <div class="responsive">
@@ -147,10 +144,9 @@
     <div class="desc">Try our BODYPUMP and Bodycombat classes for fast-paced, barbell based workout. Achieve your targets faster </div>
   </div>
 </div>
-<div class="clearfix"></div>
 <div class="responsive">
   <div class="gallery">
-      <img src="/assets/images/cardiogallery.jpg" alt="Two people exercising on the floor" width="600" height="400">
+      <img src="/assets/images/cardiogallery.jpg" id="gallery-3" alt="Two people exercising on the floor" width="600" height="400">
     <div class="desc">Cardio and Circuits classes will be a refreshing change of pace. With a variety of movements and exercises for everyone</div>
   </div>
 </div>
@@ -160,9 +156,33 @@
     <div class="desc">Our classes are taught by a professional team of knowledgeable Personal Trainers. 1-2-1 sessions also available </div>
   </div>
 </div>
-<div class="clearfix"></div>
     </section>
-
+ <!-- footer and social links -->
+ <footer>
+  <section id="footer-information">
+          <ul class="list-inline social-links">
+              <li>
+                  <a target="_blank" href="#">
+                      <i data-feather="facebook" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script></i>
+                      <span class="sr-only">Facebook</span>
+                  </a>
+              </li>
+              <li>
+                  <a target="_blank" href="#">
+                    <i data-feather="twitter" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script></i>
+                      <span class="sr-only">Twitter</span>
+                  </a>
+              </li>
+              <li>
+                  <a target="_blank" href="#">
+                    <i data-feather="instagram" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script></i>
+                      <span class="sr-only">Instagram</span>
+                  </a>
+              </li>
+          </ul>
+           <h1 class="copyright">Ridgeway Fitness © 2022</h1>
+    </section>
+</footer>
   </body>
   </html>
   

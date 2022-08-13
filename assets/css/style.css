@@ -1,43 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 *{
   box-sizing: border-box;
   margin:0;
   padding:0;
   border:0;
-
 }
 body{
   font-family: 'Roboto', sans-serif;
   padding: 10px;
   background: #bfbfbf;
 }
-
 /* Header/Blog Title */
 .header {
   padding: 50px;
   text-align: center;
   background: #8aa6a3;
-  border: 1px solid #000000;
   }
-  
 .container {
   position: relative;
   margin: auto;
 }
-
 /* Slideshow container */
 .slideshow-container {
   position: relative;
   margin: auto;
 }
-
 .item {
   max-height: 600px;
 }
-
-
-
 /* RIDGEFIELD H1 HEADING AND SHADOW */
 .header h1 {
   font-size: 5vw;
@@ -46,13 +36,10 @@ body{
   letter-spacing: 4px;
   text-shadow: 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000, 2px 2px 4px #4c5958;
   }
-  
 .header p {
 font-weight:900;
 font-size: 2vw;
 }
-
-/* STYLING FOR H2 HEADINGS */
 /* STYLING FOR H2 HEADINGS */
 h2 {
   color: #000000;
@@ -67,7 +54,6 @@ h2 {
 #big {
 line-height: 1.8em;
 }
-
 /* TOP NAV STYLE */
 #menu {
   font-size: initial;
@@ -87,7 +73,6 @@ line-height: 1.8em;
   background-color: #ffffff;
   border: 1px solid #000000;
   }
-  
   /* STYLE THE TOP NAV LINKS */
   .topnav a {
     display: block;
@@ -113,7 +98,6 @@ a {
   color:#000000;
 }
 
-/* FIRST ROW */
 /* BANNER ROW - TALKING ABOUT RIDGEFIELD */
 .row-box-banner {
   font-size: large;
@@ -131,7 +115,7 @@ a {
 .banner {
   float: right;
   width: 100%;
-  padding: 10px
+  padding-bottom: 5px;
 }
 .community-icons {
   display: block;
@@ -142,12 +126,9 @@ a {
   padding: 10px;
   background-color: #ffffff;
 }
-
 .banner p{
   text-align: center;
 }
-
-/* Banner images for all pages */
 /* BANNER IMAGES */
 .page-image-banner {
   border: 5px solid white;
@@ -159,7 +140,6 @@ a {
   object-fit: cover;
 }
 
-/* SECOND ROW */
 /* FACILITIES BOX AND EQUIPMENT BOX */
 #facilities-box { /* text style of paragraph */
   font-size: large;
@@ -171,22 +151,20 @@ a {
   padding: 15px 0 20px 0;
   text-align: center;
 }
-#facilities {
+.facilities {
   float: left;
-  width: 50%;
-  padding: 0 5px 0 0;
+  padding: 0;
 }
-#equipment {
+.equipment {
   float: left;
-  width: 50%;
   border: 0;
   padding: 0 0 0 5px;
 }
 
 /* SIGN IN PAGE */
 /* CREATE ACCOUNT BOX */
-#createaccount-box, #login-box {
-  padding: 10px;
+.accountform {
+  padding: 5px 10px 10px 10px;
   margin: 5;
   font-size: large;
   letter-spacing: 4px;
@@ -195,41 +173,38 @@ a {
   text-transform: uppercase;
 }
 
-/* INPUT TEXT BOX FOR THE WRITTING */
-#createaccount-box input {
+/* INPUT TEXT BOX FOR THE WRITTING 
+.createaccount-box input {
   color: #000000;
   font-size: large;
   font-weight: 400;
   padding: 4px 0 4px 4px;
   letter-spacing: 4px;
   width: 50%;
-}
+} */
 
-#login-box input {
+.login-box input {
   color: #000000;
   font-size: large;
   font-weight: 400;
   padding: 4px 0 4px 4px;
   letter-spacing: 4px;
-  width: 50%;
 }
-
 label, #username {
   padding: 10px 10px 5px 0;
 }
-/* INPUT TEXT BOX FOR THE WRITTING */
-#signup-pages-left, #signup-pages-right {
-  width: 50%;
-  float: left;
-  margin: auto;
+/* account benefits information and icons */
+.ticktwo {
+  vertical-align: middle;
+  color: #4c5958;
 }
-#signup-pages-left {
-  padding-right: 5px;
+/* new sign-in boxes for sign-in page */
+.login-box-bottom {
+  text-align: center;
 }
-#signup-pages-right {
-  padding-left: 5px;
+.createaccount-box-bottom {
+  text-align: center;
 }
-
 /* THIRD ROW */
 /* MAP BOX */
 #map-banner {
@@ -237,14 +212,11 @@ label, #username {
   width: 100%;
   padding: 0;
 }
-
 .map {
   overflow: hidden;
   width: 100%;
   height: 400px;
 }
-
-/* FOURTH ROW */
 /* OPENING HOURS AND CONTACT US */
 .row-four-left {
   float: left;
@@ -268,38 +240,16 @@ address {
   float: right;
   color: #4c5958;
 }
-/* account benefits information and icons */
-.ticktwo {
-  vertical-align: middle;
-  color: #4c5958;
-}
-.benefits-box {
-  text-transform: capitalize;
-}
-.benefits-box, h2 {
-  padding: 5px;
-}
-.benefits-box, i {
-  display: inline-block;
-  text-align: left;
-}
-.benefits-box, p {
-  display: inline-block;
-  font-style: none;
-  letter-spacing: 0;
-}
 
 /* FORTH ROW */
 /* EMAIL AND CONTACT INFO */
-#hours {
+.hours {
   float: right;
-  width: 50%;
-  padding: 0 0 0 5px;
-}
-#contactus {
-  float: right;
-  width: 50%;
   padding: 0 5px 0 0;
+}
+.contactus {
+  float: right;
+  padding: 0 0 0 5px;
 }
 #contact-box, #contact-box-left {
   color: 000000;
@@ -307,7 +257,6 @@ address {
   font-style: normal;
   text-transform: uppercase;
 }
-
 .fakeimg, #hours-left {
   float: left;
   text-transform: uppercase;
@@ -316,7 +265,6 @@ address {
   font-size: large;
   line-height: 222%;
 }
-
 .fakeimg, #hours-right {
  float: right;
  letter-spacing: 4px;
@@ -334,7 +282,6 @@ address {
   margin-top: 10px;
   background-color: #ffffff;
 }
-
 .banner-image {
   background-image: url('/assets/images/dumbbell.jpg');
   background-repeat: no-repeat;
@@ -342,7 +289,6 @@ address {
   background-size: cover;
   padding: 60px;
 }
-
 #fade-box {
   text-transform: uppercase;
   padding: 5px 2px 5px 2px;
@@ -350,20 +296,15 @@ address {
   background-color: rgba(180, 180, 180, .8);
 }
 
-/* FIFTH ROW */
 /* TWO BOXES FOR MEMBERSHIP OPTIONS */
-#membership-free {
+.membership-free {
   float: left;
-  width: 50%;
   padding: 0 5px 0 0;
 }
-
-#membership-full {
+.membership-full {
   float: left;
-  width: 50%;
   padding: 0 0 0 5px;
 }
-
 #membership-box, #box-left {
   padding: 10px;
   margin: 5;
@@ -401,11 +342,50 @@ address {
   width: 100%;
   padding: 20px;
 }
-
 .scrollmenu tbody:hover {
   background-color: #E69C95;
 }
+/* photo under membership boxes */
+.workout-banner {
+  display: inline-block;
+  margin: 0;
+  margin-top: 10px;
+  border: 10px solid white;
+}
 
+
+
+/* email us form and image */
+.feedbackform-photo img {
+  max-height: 400px;
+  margin: 10px 0 0 0;
+  object-fit: cover;
+}
+.feedbackform-box {
+  padding: 10px;
+  vertical-align: right;
+  display: inline-block;
+  margin: 0;
+}
+.feedbackform-box, email {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+#emailus-password {
+  padding: 30px;
+}
+#commentbox {
+  padding: 10px;
+}
+.bottom-image-banner {
+  margin: 10px 0 10px 0;
+  border: 10px solid white;
+}
+.bottom-image-banner img {
+  max-height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
 /* video banner at bottom of page *
 #video-banner {
   float: right;
@@ -417,87 +397,6 @@ address {
 
 
 
-/* photo under membership boxes */
-.workout-banner {
-  display: inline-block;
-  margin: 0;
-  margin-top: 10px;
-  border: 10px solid white;
-}
-
-
-.bottomside {
-  width: 100%;
-  display: inline-block;
-  border: 10px solid white;
-  margin-top: 10px;
-  background-color: white;
-}
-
-/* email us form */
-.feedbackform-photo img {
-  max-height: 400px;
-  float: left;
-  margin: 10px 0 0 0;
-  width: 50%;
-  object-fit: cover;
- 
-}
-
-.undervideo-box {
-  padding: 10px;
-  vertical-align: right;
-  display: inline-block;
-  margin: 0;
-  width: 50%;
-}
-.undervideo-box, email {
-  font-size: 18px;
-}
-
-#emailus-password {
-  padding: 30px;
-}
-
-#commentbox {
-  padding: 20px 20px 15px 20px;
-}
-
-
-
-
-
-
-
-
-
-
-.bottom-image-banner {
-  margin: 10px 0 0 0;
-  border: 10px solid white;
-}
-
-.bottom-image-banner, img {
-  max-height: 500px;
-  width: 100%;
-  object-fit: cover;
-}
-
-/* video banner at bottom of page */
-#video-banner {
-  float: right;
-  width: 100%;
-  padding: 10px;
-  margin-top: 10px;
-  background-color: #ffffff;
-}
-
-
-
-
-
-
-/* TIMETABLE PAGE */
 /* TIMETABLE TABLE LAYOUT */
 table {
     border-spacing: 0px;
@@ -537,14 +436,12 @@ tr .head th:first-child {
 tr .head th:last-child {
     border-top-right-radius: 5px;
 }
-
 /* TIMETABLE PAGE - SCROLL BAR UNDER TABLE */
 .scrollmenu {
   background-color: white;
   overflow: auto;
   white-space: nowrap;
 }
-
 .scrollmenu table {
   text-align: center;
   padding-bottom: 14px;
@@ -552,6 +449,72 @@ tr .head th:last-child {
   border-spacing: 0px;
   width: 100%;
   height: auto;
+}
+/* GALLERY images on timetable page */
+#timetable-gallery {
+  display: inline-block;
+}
+.gallery {
+  border: 10px solid white;
+}
+.gallery, img {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  background-color: white;
+}
+.desc {
+  padding: 20px 15px 10px 15px;
+  text-align: center;
+  font-size: large;
+}
+.responsive {
+  padding: 5px;
+  float: left;
+  width: 50%;
+}
+
+.nopadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+.row-lower {
+  float: right;
+}
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* SIGN-UP PAGE */
+/* PHOTO BANNER ON SIGN UP PAGE*/
+.signin-banner {
+  margin-top: 5px;
+  padding: 5px;
+  background-color: #f9f7f0;
+}
+/* TWO BOXES FOR SIGN-IN */
+.free-banner {
+  margin: 3px;
+  padding-top: 0;
+  background-color: 717171;
+}
+.free-banner-box {
+  background-color: #f9f7f0;
+  padding: 10px 0 0 0;
+  font-size: large;
 }
 
 /* Close the Ridgefield Fitness h1 and p 'big' gap - Responsive layout - when the screen is less than 450px wide */
@@ -589,86 +552,9 @@ tr .head th:last-child {
     letter-spacing: 1px;
   }
 }
-
-/* GALLERY */
-/* GALLERY */
-.gallery {
-  border: 10px solid white;
-}
-.gallery, img {
-  width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  vertical-align: middle;
-  background-color: white;
-}
-.desc {
-  padding: 20px 15px 10px 15px;
-  text-align: center;
-  font-size: large;
-}
-* {
-  box-sizing: border-box;
-}
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-@media only screen and (max-width: 4000px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .responsive {
-    width: 100%;
-  }
-}
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.row-box:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-/* SIGN-UP PAGE */
-/* PHOTO BANNER ON SIGN UP PAGE*/
-.signin-banner {
-  margin-top: 5px;
-  padding: 5px;
-  background-color: #f9f7f0;
-}
-/* TWO BOXES FOR SIGN-IN */
-
-.free-banner {
-  margin: 3px;
-  padding-top: 0;
-  background-color: 717171;
-}
-
-.free-banner-box {
-  background-color: #f9f7f0;
-  padding: 10px 0 0 0;
-  font-size: large;
-}
-
-
-
-
-
-
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other *
 @media screen and (max-width: 800px) {
   #facilities, #equipment, #hours, #contactus, #membership-free, #membership-full, .undervideo-box {   
     width: 100%;
@@ -676,7 +562,6 @@ tr .head th:last-child {
     margin: auto;
   }
 }
-
 @media screen and (max-width: 800px) {
   .feedbackform-photo img {   
     width: 100%;
@@ -684,7 +569,6 @@ tr .head th:last-child {
     margin: 10px 0 10px 0;
   }
 }
-
 @media screen and (max-width: 800px) {
   .feedbackform-photo img {   
     width: 100%;
@@ -692,27 +576,24 @@ tr .head th:last-child {
     margin: 10px 0 10px 0;
   }
 }
-
-
-
-
-/* GALLERY IMAGES ON TIMETABLE PAGE */
+/* 
+.col-form-label {
+  padding-top: 15px;
+}
+/* GALLERY IMAGES ON carousel */
 /* Responsive layout - make both boxes stay next to each other and not go into 4 photos on line */
 @media only screen and (max-width: 4000px) {
   .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
+    width: 25%;
+    margin: 0;
   }
 }
-/* Responsive layout - when the screen is less than 800px wide, make the two photos stack on top of each other instead of next to each other */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 968px) {
   .responsive {
     width: 100%;
+    margin: 0;
   }
 }
-
-
-
 
 /* desktop min width above 1024px screen size */
 /* desktop min width above 1024px screen size *
@@ -721,11 +602,6 @@ tr .head th:last-child {
     margin: auto;
   }
 }
-
-/* tablet min width above 768px and max width below 1023px */
-/* tablet min width above 768px and max width below 1023px */
-
-
 /* smartphone max width */
 /* smartphone max width */
 @media screen and (max-width: 907px) {
@@ -733,7 +609,6 @@ tr .head th:last-child {
     font-size: 45.35px;
   }
 }
-
 @media screen and (max-width: 731px) {
   .big h1 {
     font-size: 40px;
@@ -743,26 +618,11 @@ tr .head th:last-child {
     font-size: 18px;
   }
 }
-
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 870px) { 
   .topnav li {
     width: 25%;
     font-size: 16px;
     letter-spacing: 0;
-  }
-  #signup-pages-left {
-    width: 100%;
-  }
-  #signup-pages-right {
-    width: 100%;
-  }
-  #createaccount-box input {
-    width: 100%;
-    margin: auto;
-  }
-  #login-box input {
-    width: 100%;
-    margin: auto;
   }
 }
 /* carousel height */
@@ -773,7 +633,7 @@ tr .head th:last-child {
 }
 /* smartphone max width */
 /* smartphone max width */
-@media screen and (max-width: 580px) { /* heading and nav bar */
+@media screen and (max-width: 580px) { /* heading and nav bar*/
   .topnav li { 
     margin: auto;
     width: 100%;
@@ -783,9 +643,6 @@ tr .head th:last-child {
     border-bottom: 0.1px solid #000000;
   }
 }
-
-
-
 /* smartphone max width */
 /* smartphone max width */
 @media screen and (max-width: 562px) {
@@ -796,7 +653,6 @@ tr .head th:last-child {
     font-size: 16px;
   }
 }
-
 /* smartphone max width */
 /* smartphone max width */
 @media screen and (max-width: 528px) { /* heading and nav bar */
@@ -806,49 +662,42 @@ tr .head th:last-child {
   .topnav a {
     font-size: 16px;
   }
-  #signup-pages-left, h2 {
-    font-size: 22px;
-  }
-  #signup-pages-left, p {
-    font-size: 16px;
-  }
-  .accountform, .form-control {
-    font-weight: 0;
-    padding: 2px 0px 2px 0;
-    letter-spacing: 2px;
-  }
-  label {
-    padding: 5px 0 5px 0;
-  }
 }
 
 
-
-
-/* smartphone max width */
-/* smartphone max width */
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
+/* footer */
+.inline-block {
   display: inline-block;
-  padding: 3px;
-  background-color:#8aa6a3;
-  color: white;
+}
+.social-links-item {
+  display:inline-block;
+  padding: 0 10px 0 10px;
+  margin: 0;
+}
+#footer-information {
+  padding: 10px;
+  background-color: #8aa6a3;
+  color: #000000;
+  min-height: 120px;
+  margin-top: 0;
+}
+.social-links {
+  padding-top: 10px;
+  text-align: center;
+}
+.copyright {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.social-links li a i {
+  font-size: 13px;
+  line-height: 7px;
+}
+.social-links li a i:hover {
+  background: #E69C95;
 }
 
 
 
-.col-form-label {
-  padding-top: 15px;
-}
+
