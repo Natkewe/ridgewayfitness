@@ -30,6 +30,7 @@
     </nav>
     </header>
   <!--TOP BOX -->
+  <div class="container">
   <section>
     <div class="page-image-banner">
       <figure>
@@ -38,8 +39,7 @@
     </div>
   </section>
   <!-- timetable-->
-  <section>
-    <div class="timetable-box">
+    <section class="timetable-box">
     <div class="banner">
        <div class="row-box">
           <h2>CLASSES TIMETABLE</h2>
@@ -124,65 +124,73 @@
           </div>
           <br>
         <div class="timetable-download">
-          <a href="../..." target="_blank">Download PDF Version Here</a>
+          <a href="../..." target="_blank"><span class="passes">Download PDF Version Here</span></a>
         </div>
          </div>
       </div>
-    </div>
     </section>
- <!-- GALLERY -->
+ <!-- Gallery layout and code taken from https://www.w3schools.com/css/css_image_gallery.asp-->
     <section id="timetable-gallery">
 <div class="responsive">
   <div class="gallery">
+    <figure>
       <img src="/assets/images/stretching.jpg" alt="Two people doing Yoga" width="600" height="400">
+    </figure>
       <div class="desc">Our Pilates and Yoga classes focus on control and technique by moving slowly with good form throughout</div>
   </div>
 </div>
 <div class="responsive">
   <div class="gallery">
+    <figure>
       <img src="/assets/images/weights.jpg" alt="Weight Barbell on the floor" width="600" height="400">
+    </figure>
     <div class="desc">Try our BODYPUMP and Bodycombat classes for fast-paced, barbell based workout. Achieve your targets faster </div>
   </div>
 </div>
 <div class="responsive">
   <div class="gallery">
+    <figure>
       <img src="/assets/images/cardiogallery.jpg" id="gallery-3" alt="Two people exercising on the floor" width="600" height="400">
-    <div class="desc">Cardio and Circuits classes will be a refreshing change of pace. With a variety of movements and exercises for everyone</div>
+    </figure>
+    <div class="desc">Cardio and Circuits will be a refreshing change of pace. With a variety of movements and exercises for everyone</div>
   </div>
 </div>
 <div class="responsive">
   <div class="gallery">
+    <figure>
       <img src="/assets/images/rower.jpg" alt="A lady using a rowing machine in the gym" width="600" height="400">
-    <div class="desc">Our classes are taught by a professional team of knowledgeable Personal Trainers. 1-2-1 sessions also available </div>
+    </figure>
+    <div class="desc">Our classes are taught by a professional team of knowledgeable Personal Trainers. 121 sessions available </div>
   </div>
 </div>
     </section>
  <!-- footer and social links -->
  <footer>
-  <section id="footer-information">
+  <div id="footer-information">
           <ul class="list-inline social-links">
               <li>
-                  <a target="_blank" href="#">
-                      <i data-feather="facebook" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script></i>
+                  <a target="_blank" href="http://facebook.com">
+                      <i data-feather="facebook" class="social-links-hover" title="Go to Facebook.com" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script>
                       <span class="sr-only">Facebook</span>
                   </a>
               </li>
               <li>
-                  <a target="_blank" href="#">
-                    <i data-feather="twitter" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script></i>
+                  <a target="_blank" href="http://twitter.com">
+                    <i data-feather="twitter" class="social-links-hover" title="Go to Twitter.com" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script>
                       <span class="sr-only">Twitter</span>
                   </a>
               </li>
               <li>
-                  <a target="_blank" href="#">
-                    <i data-feather="instagram" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script></i>
+                  <a target="_blank" href="http://instagram.com">
+                    <i data-feather="instagram" class="social-links-hover" title="Go to Instagram.com" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script>
                       <span class="sr-only">Instagram</span>
                   </a>
               </li>
           </ul>
-           <h1 class="copyright">Ridgeway Fitness © 2022</h1>
-    </section>
+           <h2 class="copyright">Ridgeway Fitness © 2022</h2>
+        </div>
 </footer>
+  </div>
   </body>
   </html>
   
