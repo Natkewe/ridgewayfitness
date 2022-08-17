@@ -29,10 +29,10 @@
    </div>
   </nav>
   </header>
-  <!--TOP BOX -->
-       <div class="row-box">
+  <div class="container">
+  <!-- Carousel taken from https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_carousel-->
+       <section class="row-box">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -46,10 +46,10 @@
                <figure><img src="/assets/images/studiohome.jpg" alt="Photo of inside a gym" width="100"></figure>
               </div>
               <div class="item">
-                <figure><img src="/assets/images/Yoga-stretch-main.jpg" alt="Man running on a treadmill" width="100"></figure>
+                <figure><img src="/assets/images/Yoga-stretch-main.jpg" alt="Woman stretching on a gym matt" width="100"></figure>
               </div>
               <div class="item">
-                <figure><img src="/assets/images/crosstrainers-main.jpg" alt="Photo of a corner of a gym with a spin bike" width="100"></figure>
+                <figure><img src="/assets/images/crosstrainers-main.jpg" alt="Photo of a row of gym machines" width="100"></figure>
               </div>
               <div class="item">
                 <figure><img src="/assets/images/studiohome.jpg" alt="Two women stretching on a gym floor" width="100"></figure>
@@ -68,9 +68,9 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-    </div>
+        </section>
     <!--BANNER - FIRST ROW - JOIN OUR COMMUNITY -->
-  <section id="information-banner">
+    <section id="information-banner">
       <div class="row-box-banner">
       <h2>JOIN OUR COMMUNITY AT RIDGEFIELD</h2>
       <p>Here at the UKs favourite gym we are here to help more people in more places to lead a healthier life every day.</p>
@@ -79,78 +79,88 @@
    </div>
   </section>
   <!-- FACILITIES -->
-  <section class="col-xs-12 col-sm-6 facilities no-gutters">
+  <section class="col-xs-12 col-sm-6 facilities">
     <div class="facilities">
             <div class="row-box">
              <h2>FACILITIES</h2>
-              <div class="clearfix">
+             
                 <figure>
              <img src="/assets/images/lockers.jpg" alt="Photo of a row of Gym Lockers" width="600" height="300">
-               <div id="facilities-box"><p>The facilities here at Ridgefield boast state of art weights area,<br> 
-          two large main gym floors, a Spin bike studio and seperate class studio.<br><br>
-          Our equipment includes:<br> 15 Treadmills, 16 Cross-trainers, 10 Spin bikes, two large Free Weights zones,<br> 
-          and over 10 popular Cardio and weight training Classes.
-          </p>
+                </figure>
+               <div id="facilities-box"><p>Our facilities are newly refurbished and include everything you may need for a great gym experience</p>
+                <ul>
+                  <li>FREE onsite parking</li>
+                  <li>Brand new changing rooms</li>
+                  <li>Hair Dryers and straighners</li>
+                  <li>Yoga studio and stretching area</li>
+                  <li>Membership pass operated lockers</li>
+                  <li>Membership pass operated lockers</li>
+                </ul>        
         </div>
-        </figure>
-            </div>
+           
           </div>
     </div>
   </section>
      <!-- EQUIPMENT -->
-     <section class="col-xs-12 col-sm-6 equipment no-gutters">
+     <section class="col-xs-12 col-sm-6 equipment">
       <div class="equipment">
               <div class="row-box">
                 <h2>EQUIPMENT</h2>
-                <div class="clearfix">
+              
                   <figure>
              <img src="/assets/images/weights.jpg" alt="Photo of a Man stretching in a gym" width="600" height="300">
-       <div id="facilities-box-two"><p>The facilities here at Ridgefield boast state of art weights area,<br> 
-          two large main gym floors, a Spin bike studio and seperate class studio.<br><br>
-          Our equipment includes:<br> 15 Treadmills, 16 Cross-trainers, 10 Spin bikes, two large Free Weights zones,<br> 
-          and over 10 popular Cardio and weight training Classes.
-          </p>
+                  </figure>
+                
+       <div id="equipment-box"><p>Our equipment here at Ridgefield boasts state of the art weights area,
+          two large main gym floors, a Spin bike studio and seperate Cardio and Yoga studio</p>
+        <ul>
+          <li>15 Treadmills</li>
+          <li>16 Cross-trainers</li>
+          <li>10 Spin bikes</li>
+          <li>2 Large Free Weights zones</li>
+          <li>14+ Resistance weight machines</li>
+        </ul>
        </div>
-        </figure>
-       </div>
+                 
+   
        </div>
       </div>
   </section>
   <!-- MAP -->
-     <div id="map-banner">
+     <section id="map-banner">
         <div class="row-box">
             <div class="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9882.827971893938!2d-3.006477318275454!3d51.738394402275254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871dbbfc6daaa43%3A0x404c595dc00a02f4!2sGoytre%20Wharf!5e0!3m2!1sen!2suk!4v1658065761400!5m2!1sen!2suk" style="width:100%;height:400px;border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>   
-     </div>
+      </section>
   <!-- OPENING HOURS -->
-  <section class="col-xs-12 col-sm-6 contactus no-gutters">
+  <section class="col-xs-12 col-sm-6 contactus">
     <div class="row-box">
   <h2>Contact Us</h2>
   <div class="fakeimg">
     <div id="contact-box">
      <address>
              <br>
-               EMAIL: <a href="ridgewayfitness.com">rwf@test.com</a> 
-                <span class="contact-icons"><i data-feather="at-sign"></i> <script>feather.replace()</script></span>
+               EMAIL: <a href="ridgewayfitness@test.com" title="Go to email ridgewayfitnesstest.com" target="_blank">rwf@test.com</a> 
+                <span class="contact-icons"><i data-feather="at-sign" style="width:30px;height:30px;"></i> <script>feather.replace()</script></span>
               <br>
               <br>
                ADDRESS:
-               <span class="contact-icons"><i data-feather="map"></i> <script>feather.replace()</script></span>
+               <span class="contact-icons"><i data-feather="map" style="width:30px;height:30px;"></i> <script>feather.replace()</script></span>
               <br>
                   14 REGENT STREET <br> GOYTRE WHARF <br> NEWPORT <br> 2099
               <br>
               <br>
                TEL: 0800 555 555
-             <span class="contact-icons"><i data-feather="phone"></i> <script>feather.replace()</script></span>
+             <span class="contact-icons"><i data-feather="phone" style="width:30px;height:30px;"></i> <script>feather.replace()</script></span>
            </address>
           </div>
           </div>
         </div>
   </section>
   <!-- CONTACT US -->
-  <section class="col-xs-12 col-sm-6 hours no-gutters">
+  <section class="col-xs-12 col-sm-6 hours">
     <div class="row-box">
   <h2>Opening Hours</h2>
     <div class="hours-box">
@@ -183,33 +193,34 @@
            <div id="fade-box">
      <h2>JOIN IN ONE OF OUR CLASSES</h2>
      <p>We offer daily classes to cater for all abilities and tastes. Give one of our 10 classes a try today</p>
-     <button class="button button1" onclick="window.location.href='/timetable.html'">CLASSES</button>
+     <a href="/timetable.html" class="button button2">Classes</a> 
            </div>
    </div>
   </section>
   <!-- TWO BOXES WITH MEMBERSHIP INFO -->
-  <div class="col-xs-12 col-sm-6 hours no-gutters membership-free"> 
+  <section class="col-xs-12 col-sm-6 hours no-gutters membership-free"> 
     <div class="row-box">
       <h2>FREE PASS</h2>
         <div id="membership-box">
       <h3>TRY US OUT FOR FREE!</h3>
-        <p>Redeem a FREE one day pass on us, any time, any day - Do you already know someone at the gym? Come along and join them for FREE</p>
-         <button class="button button2" onclick="window.location.href='/membership.html'">REDEEM HERE</button>
+        <p>Redeem a FREE one day pass, any time, any day - Already know someone at the gym? Come along and join them for FREE</p>
+         <a href="/sign-in.html" class="button button2">Redeem</a>
         </div>
       </div>
-    </div>
+    </section>
   <!-- FULL ACCESS membership -->
-  <div class="col-xs-12 col-sm-6 hours no-gutters membership-full">
+  <section class="col-xs-12 col-sm-6 hours no-gutters membership-full">
     <div class="row-box">
       <h2>FULL MEMBERSHIP</h2>
      <div id="box-left">
         <h3>OUR COMPREHENSIVE MEMBERSHIP</h3>
-        <p>Our comprehensive membership for £19.99 per month - all acceess - No contract - 24 hour opening - FREE parking - FREE WIFI</p>
-        <button class="button button2" onclick="window.location.href='/membership.html'">SIGN UP</button>
+        <p>Our FULL membership for £19.99 per month - all acceess - No contract - 24 hour opening - FREE parking - FREE WIFI</p>
+        <a href="/sign-in.html" class="button button2">Sign Up</a>
       </div>
     </div>
-  </div>
+  </section>
   <!-- SIXTH ROW -->
+  <section>
   <div class="workout-banner">
     <figure>
     <img src="/assets/images/workout-image-main.jpg" alt="Photo of a Man stretching in a gym" width="300" height="200">
@@ -225,16 +236,17 @@
     <p>We value your feedback here at Ridgefield and would love to hear from you..</p>
     </div>
         <form>
-        <label for="exampleFormControlInput1" class="form-label">Your Email:</label>
+        <label for="emailus-email" class="form-label">Your Email:</label>
         <input type="email" class="form-control" id="emailus-email" placeholder="name@example.com">
-        <label for="exampleFormControlTextarea1" class="form-label">How can we help?</label>
+        <label for="emailus-password" class="form-label">How can we help?</label>
         <textarea class="form-control" id="emailus-password" rows="3"></textarea>
-        <button class="button button2" onclick="window.location.href='/timetable.html'">SUBMIT</button>
+        <button class="button button2" type="button" onclick="_blank">SUBMIT</button>
       </form>
    </div>
+ 
   </section>
  <!-- FOURTH ROW -->
-   <section id="information-banner">
+  <section id="aboutus-banner">
     <div class="row-box-banner">
     <h2>ABOUT US</h2>
     <p>Started in 2019, Ridgefield Fitness has strived to become one of the best..Here at the UKs favourite gym we are here to help more people in more places to lead a healthier life every day.
@@ -242,7 +254,7 @@
     </p>
     <span class="community-icons"><i data-feather="home" style="width:56px;height:56px;"></i> <script>feather.replace()</script></span>
  </div>
-</section>
+  </section>
   <!-- BANNER WITH CLASSES LINK -->
   <div class="bottom-image-banner">
     <figure>
@@ -250,31 +262,32 @@
     </figure>
     </div>
  <!-- footer and social links -->
-    <footer>
-      <section id="footer-information">
-              <ul class="list-inline social-links">
-                  <li>
-                      <a target="_blank" href="#">
-                          <i data-feather="facebook" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script></i>
-                          <span class="sr-only">Facebook</span>
-                      </a>
-                  </li>
-                  <li>
-                      <a target="_blank" href="#">
-                        <i data-feather="twitter" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script></i>
-                          <span class="sr-only">Twitter</span>
-                      </a>
-                  </li>
-                  <li>
-                      <a target="_blank" href="#">
-                        <i data-feather="instagram" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script></i>
-                          <span class="sr-only">Instagram</span>
-                      </a>
-                  </li>
-              </ul>
-               <h1 class="copyright">Ridgeway Fitness © 2022</h1>
-        </section>
-  </footer>
+ <footer>
+  <div id="footer-information">
+          <ul class="list-inline social-links">
+              <li>
+                  <a target="_blank" href="http://facebook.com">
+                      <i data-feather="facebook" class="social-links-hover" title="Go to Facebook.com" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script>
+                      <span class="sr-only">Facebook</span>
+                  </a>
+              </li>
+              <li>
+                  <a target="_blank" href="http://twitter.com">
+                    <i data-feather="twitter" class="social-links-hover" title="Go to Twitter.com" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script>
+                      <span class="sr-only">Twitter</span>
+                  </a>
+              </li>
+              <li>
+                  <a target="_blank" href="http://instagram.com">
+                    <i data-feather="instagram" class="social-links-hover" title="Go to Instagram.com" aria-hidden="true" style="width:56px;height:56px;"></i> <script>feather.replace()</script>
+                      <span class="sr-only">Instagram</span>
+                  </a>
+              </li>
+          </ul>
+           <h2 class="copyright">Ridgeway Fitness © 2022</h2>
+        </div>
+</footer>
+</div>
   </body>
   </html>
   

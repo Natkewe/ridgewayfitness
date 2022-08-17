@@ -7,20 +7,22 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
-  padding: 10px;
+  padding: 0;
   background: #bfbfbf;
 }
-/* Header/Blog Title */
 .header {
   padding: 50px;
   text-align: center;
   background: #8aa6a3;
   }
+
+/* What is this???????? *
 .container {
   position: relative;
   margin: auto;
 }
-/* Slideshow container */
+
+/* Carousel container */
 .slideshow-container {
   position: relative;
   margin: auto;
@@ -28,7 +30,7 @@ body{
 .item {
   max-height: 600px;
 }
-/* RIDGEFIELD H1 HEADING AND SHADOW */
+/* Main h1 heading style */
 .header h1 {
   font-size: 5vw;
   text-transform: uppercase;
@@ -40,7 +42,7 @@ body{
 font-weight:900;
 font-size: 2vw;
 }
-/* STYLING FOR H2 HEADINGS */
+/* Style of h2 headings */
 h2 {
   color: #000000;
   font-weight:900;
@@ -49,12 +51,11 @@ h2 {
   text-align: center;
   padding-bottom: 10px;
 }
-
-/* SPACE IN BETWEEN H1 WRITTING ON TITLE */
+/* Creating space inbetween heading and p text */
 #big {
 line-height: 1.8em;
 }
-/* TOP NAV STYLE */
+ /* Style of top navigation links */
 #menu {
   font-size: initial;
   list-style-type: none;
@@ -73,7 +74,6 @@ line-height: 1.8em;
   background-color: #ffffff;
   border: 1px solid #000000;
   }
-  /* STYLE THE TOP NAV LINKS */
   .topnav a {
     display: block;
     color: #000000;
@@ -84,29 +84,22 @@ line-height: 1.8em;
     padding-left: 10px;
     border-right: 1px dotted #000000;
   }
-
-/* CHANGE COLOUR ON HOVER */
 .topnav a:hover {
   border-bottom: 3px solid #E69C95
 }
-/* COLOUR BLOCK STAYS ON HOME TAB */
 .active-menu {
   border-bottom: 3px solid #E69C95;
 }
-/* EMAIL LINK COLOUR */
 a {
-  color:#000000;
+  color:#000000; /* colour of email link */
 }
-
-/* BANNER ROW - TALKING ABOUT RIDGEFIELD */
-.row-box-banner {
+.row-box-banner { /* background box with border */
   font-size: large;
   padding: 15px 50px 15px 50px;
   text-align: center;
   background-color: #ffffff;
 }
-/* BOX BACKGROUNDS */
-.row-box {
+.row-box { /* background box with border */
   font-size: large;
   margin-top: 10px;
   padding: 10px;
@@ -120,8 +113,7 @@ a {
 .community-icons {
   display: block;
 }
-/* banner under carousel */
-#information-banner {
+#information-banner, #aboutus-banner { /* Information row box under carousel and towards bottom of the page */
   margin-top: 10px;
   padding: 10px;
   background-color: #ffffff;
@@ -129,7 +121,7 @@ a {
 .banner p{
   text-align: center;
 }
-/* BANNER IMAGES */
+/* Full width img boxes to control height */
 .page-image-banner {
   border: 5px solid white;
   margin-top: 10px;
@@ -139,38 +131,32 @@ a {
   width: 100%;
   object-fit: cover;
 }
-
-/* FACILITIES BOX AND EQUIPMENT BOX */
-#facilities-box { /* text style of paragraph */
+/* Facilities and equipment box */
+#facilities-box {
   font-size: large;
-  padding: 15px 0 20px 0;
+  padding: 15px 0 1px 0;
   text-align: center;
+  margin: 0;
 }
-#facilities-box-two p {
+#equipment-box {
+  padding: 15px 0 0 0;
+  margin: 0;
+}
+#equipment-box p, ul li {
   font-size: large;
-  padding: 15px 0 20px 0;
+  padding: 0;
   text-align: center;
+  list-style-type: none;
 }
 .facilities {
   float: left;
-  padding: 0;
+  padding: 0 2px 0 0;
+  margin: 0;
 }
 .equipment {
   float: left;
   border: 0;
-  padding: 0 0 0 5px;
-}
-
-/* SIGN IN PAGE */
-/* CREATE ACCOUNT BOX */
-.accountform {
-  padding: 5px 10px 10px 10px;
-  margin: 5;
-  font-size: large;
-  letter-spacing: 4px;
-  width: 100%;
-  background-color: rgba(138, 166, 163, .2);
-  text-transform: uppercase;
+  padding: 0 0 0 2px;
 }
 
 /* INPUT TEXT BOX FOR THE WRITTING 
@@ -183,6 +169,16 @@ a {
   width: 50%;
 } */
 
+/* Sign up and log in page */
+.accountform {
+  padding: 5px 10px 10px 10px;
+  margin: 5px;
+  font-size: large;
+  letter-spacing: 4px;
+  width: 100%;
+  background-color: rgba(138, 166, 163, .2);
+  text-transform: uppercase;
+}
 .login-box input {
   color: #000000;
   font-size: large;
@@ -193,20 +189,20 @@ a {
 label, #username {
   padding: 10px 10px 5px 0;
 }
-/* account benefits information and icons */
 .ticktwo {
   vertical-align: middle;
-  color: #4c5958;
+  color: #2c8631;
 }
-/* new sign-in boxes for sign-in page */
 .login-box-bottom {
   text-align: center;
 }
 .createaccount-box-bottom {
   text-align: center;
 }
-/* THIRD ROW */
-/* MAP BOX */
+.passes {
+  background-color: #f2f185;
+}
+/* Map box */
 #map-banner {
   float: right;
   width: 100%;
@@ -217,7 +213,9 @@ label, #username {
   width: 100%;
   height: 400px;
 }
-/* OPENING HOURS AND CONTACT US */
+
+
+/* what is this for???? *
 .row-four-left {
   float: left;
   width: 50%;
@@ -231,18 +229,17 @@ label, #username {
   width: 50%;
   padding: 10px;
 }
+
+/* Opening hours and contact us box */
 address {
   letter-spacing: 2px;
-  margin-bottom: 32px;
+  margin-bottom: 33px;
 }
 .contact-icons {
   display: block;
   float: right;
-  color: #4c5958;
+  color: #2c8631;
 }
-
-/* FORTH ROW */
-/* EMAIL AND CONTACT INFO */
 .hours {
   float: right;
   padding: 0 5px 0 0;
@@ -251,8 +248,8 @@ address {
   float: right;
   padding: 0 0 0 5px;
 }
-#contact-box, #contact-box-left {
-  color: 000000;
+#contact-box #contact-box-left {
+  color: #000000;
   font-weight: bold;
   font-style: normal;
   text-transform: uppercase;
@@ -272,9 +269,7 @@ address {
  font-size: large;
  line-height: 222%;
 }
-
-/* FORTH ROW */
-/* BANNER IMAGE BACKGROUND OF WEIGHTS */
+/* Join our classes link with img in the background */
 #classes-banner {
   float: right;
   width: 100%;
@@ -295,8 +290,7 @@ address {
   letter-spacing: 3px;
   background-color: rgba(180, 180, 180, .8);
 }
-
-/* TWO BOXES FOR MEMBERSHIP OPTIONS */
+/* Membership opion boxes */
 .membership-free {
   float: left;
   padding: 0 5px 0 0;
@@ -306,19 +300,17 @@ address {
   padding: 0 0 0 5px;
 }
 #membership-box, #box-left {
-  padding: 10px;
-  margin: 5;
+  padding: 20px;
+  margin: 5px;
   color: #f9f7f0;
   background-color: rgba(76, 89, 88, .8);
   text-align: center;
 }
-
 /* BUTTON STYLES FOR ALL LINK OPTIONS */
 .button1 {background-color: #E69C95;}
 .button2 {background-color: #E69C95;}
 .button1:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
 .button2:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
-
 .button {
   border: none;
   padding: 10px 0 10px 0;
@@ -334,7 +326,6 @@ address {
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-
 /* STYLING FOR H2 HEADINGS */
 /* BACKGROUND TO THE OPENING TIMES AND CONTACT INFO */
 .fakeimg {
@@ -345,17 +336,14 @@ address {
 .scrollmenu tbody:hover {
   background-color: #E69C95;
 }
-/* photo under membership boxes */
+/* Full width image underneath membership boxes */
 .workout-banner {
   display: inline-block;
   margin: 0;
   margin-top: 10px;
   border: 10px solid white;
 }
-
-
-
-/* email us form and image */
+/* Contact us email form and image */
 .feedbackform-photo img {
   max-height: 400px;
   margin: 10px 0 0 0;
@@ -363,7 +351,6 @@ address {
 }
 .feedbackform-box {
   padding: 10px;
-  vertical-align: right;
   display: inline-block;
   margin: 0;
 }
@@ -386,18 +373,7 @@ address {
   width: 100%;
   object-fit: cover;
 }
-/* video banner at bottom of page *
-#video-banner {
-  float: right;
-  width: 100%;
-  padding: 10px;
-  margin-top: 10px;
-  background-color: #ffffff;
-}
-
-
-
-/* TIMETABLE TABLE LAYOUT */
+/* Timetable page */
 table {
     border-spacing: 0px;
     width: 100%;
@@ -436,8 +412,7 @@ tr .head th:first-child {
 tr .head th:last-child {
     border-top-right-radius: 5px;
 }
-/* TIMETABLE PAGE - SCROLL BAR UNDER TABLE */
-.scrollmenu {
+.scrollmenu { /* scroll bar under table */
   background-color: white;
   overflow: auto;
   white-space: nowrap;
@@ -450,7 +425,7 @@ tr .head th:last-child {
   width: 100%;
   height: auto;
 }
-/* GALLERY images on timetable page */
+/* Gallery images on timetable page */
 #timetable-gallery {
   display: inline-block;
 }
@@ -463,30 +438,25 @@ tr .head th:last-child {
   background-repeat: no-repeat;
   background-position: center;
   vertical-align: middle;
-  background-color: white;
 }
 .desc {
   padding: 20px 15px 10px 15px;
   text-align: center;
   font-size: large;
+  background-color: white;
 }
 .responsive {
   padding: 5px;
   float: left;
   width: 50%;
 }
-
 .nopadding {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-
 .row-lower {
   float: right;
 }
-
-
-
 .clearfix:after {
   content: "";
   display: table;
@@ -499,13 +469,12 @@ tr .head th:last-child {
 }
 
 /* SIGN-UP PAGE */
-/* PHOTO BANNER ON SIGN UP PAGE*/
+/* what is this for???? *
 .signin-banner {
   margin-top: 5px;
   padding: 5px;
   background-color: #f9f7f0;
 }
-/* TWO BOXES FOR SIGN-IN */
 .free-banner {
   margin: 3px;
   padding-top: 0;
@@ -517,7 +486,7 @@ tr .head th:last-child {
   font-size: large;
 }
 
-/* Close the Ridgefield Fitness h1 and p 'big' gap - Responsive layout - when the screen is less than 450px wide */
+/* Close the Ridgefield Fitness h1 and p 'big' gap - Responsive layout - when the screen is less than 450px wide *
 @media screen and (max-width: 900px) {
   .big h1 {
     font-size: 40px;
@@ -540,16 +509,6 @@ tr .head th:last-child {
   }
   .big p {
     font-size: 15px;
-  }
-}
-@media screen and (max-width: 443px) {
-  .topnav .menu, ul li {
-    letter-spacing: 1px;
-  }
-}
-@media screen and (max-width: 386px) {
-  .topnav .menu, ul li {
-    letter-spacing: 1px;
   }
 }
 /* MEDIA QUERIES */
@@ -580,9 +539,9 @@ tr .head th:last-child {
 .col-form-label {
   padding-top: 15px;
 }
-/* GALLERY IMAGES ON carousel */
-/* Responsive layout - make both boxes stay next to each other and not go into 4 photos on line */
-@media only screen and (max-width: 4000px) {
+
+/* laptop max width 4000 */
+@media only screen and (max-width: 4000px) { /* four gallery img boxes */
   .responsive {
     width: 25%;
     margin: 0;
@@ -594,17 +553,8 @@ tr .head th:last-child {
     margin: 0;
   }
 }
-
-/* desktop min width above 1024px screen size */
-/* desktop min width above 1024px screen size *
-@media screen and (min-width: 1024px) {
-  .big h1 {
-    margin: auto;
-  }
-}
-/* smartphone max width */
-/* smartphone max width */
-@media screen and (max-width: 907px) {
+/* tablet max width 907px */
+@media screen and (max-width: 907px) { /* h1 heading and gap between writing */
   .big h1 {
     font-size: 45.35px;
   }
@@ -625,15 +575,14 @@ tr .head th:last-child {
     letter-spacing: 0;
   }
 }
-/* carousel height */
+/* tablet max width 640px */
 @media screen and (max-width: 640px) {
-  #myCarousel .carousel-inner .item, img {
+  #myCarousel .carousel-inner .item, img { /* carousel height */
     height: 25%;
   }
 }
-/* smartphone max width */
-/* smartphone max width */
-@media screen and (max-width: 580px) { /* heading and nav bar*/
+/* smartphone max width 580px */
+@media screen and (max-width: 580px) { /* topnav list items */
   .topnav li { 
     margin: auto;
     width: 100%;
@@ -643,9 +592,8 @@ tr .head th:last-child {
     border-bottom: 0.1px solid #000000;
   }
 }
-/* smartphone max width */
-/* smartphone max width */
-@media screen and (max-width: 562px) {
+/* smartphone max width 562px */
+@media screen and (max-width: 562px) { /* h1 heading and gap between writing */
   .big h1 {
    font-size: 38px;
   }
@@ -653,8 +601,7 @@ tr .head th:last-child {
     font-size: 16px;
   }
 }
-/* smartphone max width */
-/* smartphone max width */
+/* smartphone max width 528px */
 @media screen and (max-width: 528px) { /* heading and nav bar */
   .header {
     padding: 20.9px 50px 20.9px 50px;
@@ -663,8 +610,18 @@ tr .head th:last-child {
     font-size: 16px;
   }
 }
-
-
+/* smartphone max width 443px */
+@media screen and (max-width: 443px) { /* topnav list items */
+  .topnav .menu, ul li {
+    letter-spacing: 1px;
+  }
+}
+/* smartphone max width 386px */
+@media screen and (max-width: 386px) { /* topnav list items */
+  .topnav .menu, ul li {
+    letter-spacing: 1px;
+  }
+}
 /* footer */
 .inline-block {
   display: inline-block;
@@ -690,12 +647,18 @@ tr .head th:last-child {
   font-size: 22px;
   margin-top: 10px;
 }
+.copyright, h2 {
+  font-size: 18px;
+}
 .social-links li a i {
   font-size: 13px;
   line-height: 7px;
 }
-.social-links li a i:hover {
-  background: #E69C95;
+.social-links-hover {
+  color:#000000;
+}
+.social-links-hover:hover {
+  color: #E69C95;
 }
 
 
