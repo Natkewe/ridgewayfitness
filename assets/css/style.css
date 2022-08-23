@@ -105,6 +105,7 @@ a {
   padding: 10px;
   background-color: #ffffff;
 }
+
 .banner {
   float: right;
   width: 100%;
@@ -187,7 +188,7 @@ a {
   letter-spacing: 4px;
 }
 label, #username {
-  padding: 10px 10px 5px 0;
+  padding: 10px 10px 5px 5px;
 }
 .ticktwo {
   vertical-align: middle;
@@ -278,9 +279,8 @@ address {
   background-color: #ffffff;
 }
 .banner-image {
-  background-image: url('/assets/images/dumbbell.jpg');
+  background-image: url('/assets/images/classes-banner-image.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed; 
   background-size: cover;
   padding: 60px;
 }
@@ -301,8 +301,8 @@ address {
 }
 #membership-box, #box-left {
   padding: 20px;
-  margin: 5px;
-  color: #f9f7f0;
+  margin: auto;
+  color: #000000;
   background-color: rgba(76, 89, 88, .8);
   text-align: center;
 }
@@ -345,8 +345,10 @@ address {
 }
 /* Contact us email form and image */
 .feedbackform-photo img {
-  max-height: 400px;
-  margin: 10px 0 0 0;
+  height: 430px;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
   object-fit: cover;
 }
 .feedbackform-box {
@@ -365,7 +367,7 @@ address {
   padding: 10px;
 }
 .bottom-image-banner {
-  margin: 10px 0 10px 0;
+  margin-top: 10px;
   border: 10px solid white;
 }
 .bottom-image-banner img {
@@ -425,6 +427,16 @@ tr .head th:last-child {
   width: 100%;
   height: auto;
 }
+.pdf-download {
+  display: block;
+  text-align: center;
+}
+.pdf-download h3 {
+  display: inline-block;
+  background-color: #f2f185;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
 /* Gallery images on timetable page */
 #timetable-gallery {
   display: inline-block;
@@ -440,7 +452,7 @@ tr .head th:last-child {
   vertical-align: middle;
 }
 .desc {
-  padding: 20px 15px 10px 15px;
+  padding: 20px 0 10px 0;
   text-align: center;
   font-size: large;
   background-color: white;
@@ -450,10 +462,14 @@ tr .head th:last-child {
   float: left;
   width: 50%;
 }
+
+/* SIGN-UP PAGE 
 .nopadding {
     padding-left: 0 !important;
     padding-right: 0 !important;
-  }
+  } */
+
+
 .row-lower {
   float: right;
 }
@@ -466,6 +482,17 @@ tr .head th:last-child {
   content: "";
   display: table;
   clear: both;
+}
+
+
+#photos-gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+.responsive-gallery {
+  padding: 5px;
 }
 
 /* SIGN-UP PAGE */
@@ -547,10 +574,13 @@ tr .head th:last-child {
     margin: 0;
   }
 }
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 993px) {
   .responsive {
     width: 100%;
     margin: 0;
+  }
+  #photos-gallery {
+    column-count: 2;
   }
 }
 /* tablet max width 907px */
@@ -567,12 +597,18 @@ tr .head th:last-child {
     margin: auto;
     font-size: 18px;
   }
+  .feedbackform-photo img { /* image next to the contact-us form to remove the min-height when on mobile */
+    height: auto;
+  }
 }
 @media screen and (max-width: 870px) { 
   .topnav li {
     width: 25%;
     font-size: 16px;
     letter-spacing: 0;
+  }
+  #photos-gallery {
+    column-count: 1;
   }
 }
 /* tablet max width 640px */
@@ -636,7 +672,7 @@ tr .head th:last-child {
   background-color: #8aa6a3;
   color: #000000;
   min-height: 120px;
-  margin-top: 0;
+  margin-top: 5px;
 }
 .social-links {
   padding-top: 10px;
