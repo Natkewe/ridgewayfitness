@@ -15,13 +15,6 @@ body{
   text-align: center;
   background: #8aa6a3;
   }
-
-/* What is this???????? *
-.container {
-  position: relative;
-  margin: auto;
-}
-
 /* Carousel container */
 .slideshow-container {
   position: relative;
@@ -51,12 +44,10 @@ h2 {
   text-align: center;
   padding-bottom: 10px;
 }
-/* Creating space inbetween heading and p text */
-#big {
+#big { /* Creating space inbetween heading and p text */
 line-height: 1.8em;
 }
- /* Style of top navigation links */
-#menu {
+#menu {  /* Style of top navigation links */
   font-size: initial;
   list-style-type: none;
   letter-spacing: 2px;
@@ -93,28 +84,27 @@ line-height: 1.8em;
 a {
   color:#000000; /* colour of email link */
 }
-.row-box-banner { /* background box with border */
+.row-box-banner { /* style for background box with border */
   font-size: large;
   padding: 15px 50px 15px 50px;
   text-align: center;
   background-color: #ffffff;
 }
-.row-box { /* background box with border */
+.row-box { /* style for information box background with border */
   font-size: large;
   margin-top: 10px;
   padding: 10px;
   background-color: #ffffff;
 }
-
 .banner {
   float: right;
   width: 100%;
   padding-bottom: 5px;
 }
-.community-icons {
+.community-icons { /* Icon for About Us box */
   display: block;
 }
-#information-banner, #aboutus-banner { /* Information row box under carousel and towards bottom of the page */
+#information-banner, #aboutus-banner { /* Information row box under carousel, About Us box */
   margin-top: 10px;
   padding: 10px;
   background-color: #ffffff;
@@ -159,17 +149,6 @@ a {
   border: 0;
   padding: 0 0 0 2px;
 }
-
-/* INPUT TEXT BOX FOR THE WRITTING 
-.createaccount-box input {
-  color: #000000;
-  font-size: large;
-  font-weight: 400;
-  padding: 4px 0 4px 4px;
-  letter-spacing: 4px;
-  width: 50%;
-} */
-
 /* Sign up and log in page */
 .accountform {
   padding: 5px 10px 10px 10px;
@@ -214,23 +193,6 @@ label, #username {
   width: 100%;
   height: 400px;
 }
-
-
-/* what is this for???? *
-.row-four-left {
-  float: left;
-  width: 50%;
-  padding: 10;
-}
-.row-four-left p {
-  font-size: large;
-}
-.row-four-right {
-  float: right;
-  width: 50%;
-  padding: 10px;
-}
-
 /* Opening hours and contact us box */
 address {
   letter-spacing: 2px;
@@ -290,7 +252,7 @@ address {
   letter-spacing: 3px;
   background-color: rgba(180, 180, 180, .8);
 }
-/* Membership opion boxes */
+/* Membership option boxes */
 .membership-free {
   float: left;
   padding: 0 5px 0 0;
@@ -306,7 +268,7 @@ address {
   background-color: rgba(76, 89, 88, .8);
   text-align: center;
 }
-/* BUTTON STYLES FOR ALL LINK OPTIONS */
+/* Button styles for all button links */
 .button1 {background-color: #E69C95;}
 .button2 {background-color: #E69C95;}
 .button1:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
@@ -326,8 +288,7 @@ address {
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-/* STYLING FOR H2 HEADINGS */
-/* BACKGROUND TO THE OPENING TIMES AND CONTACT INFO */
+/* Background to the opening time and contact us boxes */
 .fakeimg {
   background-color: rgba(138, 166, 163, .3);
   width: 100%;
@@ -427,7 +388,7 @@ tr .head th:last-child {
   width: 100%;
   height: auto;
 }
-.pdf-download {
+.pdf-download { /* PDF download link */
   display: block;
   text-align: center;
 }
@@ -462,14 +423,6 @@ tr .head th:last-child {
   float: left;
   width: 50%;
 }
-
-/* SIGN-UP PAGE 
-.nopadding {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  } */
-
-
 .row-lower {
   float: right;
 }
@@ -483,8 +436,7 @@ tr .head th:last-child {
   display: table;
   clear: both;
 }
-
-
+/* Gallery page */
 #photos-gallery {
     clear: both;
     line-height: 0;
@@ -494,171 +446,7 @@ tr .head th:last-child {
 .responsive-gallery {
   padding: 5px;
 }
-
-/* SIGN-UP PAGE */
-/* what is this for???? *
-.signin-banner {
-  margin-top: 5px;
-  padding: 5px;
-  background-color: #f9f7f0;
-}
-.free-banner {
-  margin: 3px;
-  padding-top: 0;
-  background-color: 717171;
-}
-.free-banner-box {
-  background-color: #f9f7f0;
-  padding: 10px 0 0 0;
-  font-size: large;
-}
-
-/* Close the Ridgefield Fitness h1 and p 'big' gap - Responsive layout - when the screen is less than 450px wide *
-@media screen and (max-width: 900px) {
-  .big h1 {
-    font-size: 40px;
-  }
-  .big p {
-    font-size: 18px;
-  }
-}
-@media screen and (max-width: 548px) {
-  .big h1 {
-    font-size: 35px;
-  }
-  .big p {
-    font-size: 17px;
-  }
-}
-@media screen and (max-width: 502px) {
-  .big h1 {
-    font-size: 30px;
-  }
-  .big p {
-    font-size: 15px;
-  }
-}
-/* MEDIA QUERIES */
-/* MEDIA QUERIES */
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other *
-@media screen and (max-width: 800px) {
-  #facilities, #equipment, #hours, #contactus, #membership-free, #membership-full, .undervideo-box {   
-    width: 100%;
-    padding: 0;
-    margin: auto;
-  }
-}
-@media screen and (max-width: 800px) {
-  .feedbackform-photo img {   
-    width: 100%;
-    padding: 0;
-    margin: 10px 0 10px 0;
-  }
-}
-@media screen and (max-width: 800px) {
-  .feedbackform-photo img {   
-    width: 100%;
-    padding: 0;
-    margin: 10px 0 10px 0;
-  }
-}
-/* 
-.col-form-label {
-  padding-top: 15px;
-}
-
-/* laptop max width 4000 */
-@media only screen and (max-width: 4000px) { /* four gallery img boxes */
-  .responsive {
-    width: 25%;
-    margin: 0;
-  }
-}
-@media only screen and (max-width: 993px) {
-  .responsive {
-    width: 100%;
-    margin: 0;
-  }
-  #photos-gallery {
-    column-count: 2;
-  }
-}
-/* tablet max width 907px */
-@media screen and (max-width: 907px) { /* h1 heading and gap between writing */
-  .big h1 {
-    font-size: 45.35px;
-  }
-}
-@media screen and (max-width: 731px) {
-  .big h1 {
-    font-size: 40px;
-  }
-  .big p {
-    margin: auto;
-    font-size: 18px;
-  }
-  .feedbackform-photo img { /* image next to the contact-us form to remove the min-height when on mobile */
-    height: auto;
-  }
-}
-@media screen and (max-width: 870px) { 
-  .topnav li {
-    width: 25%;
-    font-size: 16px;
-    letter-spacing: 0;
-  }
-  #photos-gallery {
-    column-count: 1;
-  }
-}
-/* tablet max width 640px */
-@media screen and (max-width: 640px) {
-  #myCarousel .carousel-inner .item, img { /* carousel height */
-    height: 25%;
-  }
-}
-/* smartphone max width 580px */
-@media screen and (max-width: 580px) { /* topnav list items */
-  .topnav li { 
-    margin: auto;
-    width: 100%;
-    line-height: 40px;
-    padding-bottom: 0;
-    letter-spacing: 4px;
-    border-bottom: 0.1px solid #000000;
-  }
-}
-/* smartphone max width 562px */
-@media screen and (max-width: 562px) { /* h1 heading and gap between writing */
-  .big h1 {
-   font-size: 38px;
-  }
-  .big p {
-    font-size: 16px;
-  }
-}
-/* smartphone max width 528px */
-@media screen and (max-width: 528px) { /* heading and nav bar */
-  .header {
-    padding: 20.9px 50px 20.9px 50px;
-  }
-  .topnav a {
-    font-size: 16px;
-  }
-}
-/* smartphone max width 443px */
-@media screen and (max-width: 443px) { /* topnav list items */
-  .topnav .menu, ul li {
-    letter-spacing: 1px;
-  }
-}
-/* smartphone max width 386px */
-@media screen and (max-width: 386px) { /* topnav list items */
-  .topnav .menu, ul li {
-    letter-spacing: 1px;
-  }
-}
-/* footer */
+/* Footer and Social links */
 .inline-block {
   display: inline-block;
 }
@@ -696,7 +484,97 @@ tr .head th:last-child {
 .social-links-hover:hover {
   color: #E69C95;
 }
-
-
-
-
+/***************************** laptop max width 4000px **************************************************/
+@media only screen and (max-width: 4000px) { 
+  .responsive { /* four gallery img boxes on Timetable page */
+    width: 25%;
+    margin: 0;
+  }
+}
+/***************************** laptop max width 993px **************************************************/
+@media only screen and (max-width: 993px) {
+  .responsive {
+    width: 100%;
+    margin: 0;
+  }
+  #photos-gallery { /* gallery page images */
+    column-count: 2;
+  }
+}
+/***************************** laptop max width 907px **************************************************/
+@media screen and (max-width: 907px) { 
+  .big h1 { 
+    font-size: 45.35px; /* h1 heading and gap between writing */
+  }
+}
+/***************************** laptop max width 731px **************************************************/
+@media screen and (max-width: 731px) {
+  .big h1 {
+    font-size: 40px; /* h1 heading and gap between writing */
+  }
+  .big p {
+    margin: auto;
+    font-size: 18px;
+  }
+  .feedbackform-photo img { /* image next to Contact Us form to remove the min-height when on mobile */
+    height: auto;
+  }
+}
+/***************************** laptop max width 870px **************************************************/
+@media screen and (max-width: 870px) { 
+  .topnav li {
+    width: 25%;
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+  #photos-gallery { /* Gallery page */
+    column-count: 1;
+  }
+}
+/***************************** laptop max width 640px **************************************************/
+@media screen and (max-width: 640px) {
+  #myCarousel .carousel-inner .item, img { /* carousel height */
+    height: 25%;
+  }
+}
+/***************************** laptop max width 580px **************************************************/
+@media screen and (max-width: 580px) { /* topnav list items */
+  .topnav li { 
+    margin: auto;
+    width: 100%;
+    line-height: 40px;
+    padding-bottom: 0;
+    letter-spacing: 4px;
+    border-bottom: 0.1px solid #000000;
+  }
+}
+/***************************** laptop max width 562px **************************************************/
+@media screen and (max-width: 562px) { 
+  .big h1 {
+   font-size: 38px;
+  }
+  .big p { /* h1 heading and gap between writing */
+    font-size: 16px;
+  }
+}
+/***************************** laptop max width 528px **************************************************/
+@media screen and (max-width: 528px) { 
+  .header { /* heading and nav bar */
+    padding: 20.9px 50px 20.9px 50px;
+  }
+  .topnav a {
+    font-size: 16px;
+  }
+}
+/***************************** laptop max width 443px **************************************************/
+@media screen and (max-width: 443px) {
+  .topnav .menu, ul li {  /* topnav list items */
+    letter-spacing: 1px;
+  }
+}
+/***************************** laptop max width 386px **************************************************/
+@media screen and (max-width: 386px) { 
+  .topnav .menu, ul li {  /* topnav list items */
+    letter-spacing: 1px;
+  }
+}
