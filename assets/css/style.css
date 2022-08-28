@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *{
   box-sizing: border-box;
   margin:0;
@@ -264,8 +265,8 @@ address {
 #membership-box, #box-left {
   padding: 20px;
   margin: auto;
-  color: #000000;
-  background-color: rgba(76, 89, 88, .8);
+  color: white;
+  background-color: #4c5958;
   text-align: center;
 }
 /* Button styles for all button links */
@@ -307,10 +308,11 @@ address {
 /* Contact us email form and image */
 .feedbackform-photo img {
   height: 430px;
-  margin: 0;
-  padding-left: 0;
-  padding-right: 0;
+  margin-left: 0;
   object-fit: cover;
+}
+.nopadding {
+  padding: 0;
 }
 .feedbackform-box {
   padding: 10px;

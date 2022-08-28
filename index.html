@@ -2,16 +2,26 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="Ridgeway Fitness, a Gym Fitness website for an Independant Gym in Newport Wales UK.">
+    <meta name="keywords"
+    content="gym, Newport, Wales, fitness, exercise, gym membership, free gym pass, exercse classes, personal training, sport">
+
     <title>Ridgeway Fitness</title>
+
+    <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Icons used throughout this site -->
     <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   </head>
+  
   <body>
-    <header>
+    <header> <!-- Header and Nav bar taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_navbar-->
     <div class="header">
       <div class="big">
         <h1>RIDGEWAY FITNESS</h1>
@@ -31,8 +41,8 @@
   </header>
   <div class="container">
   <!-- Carousel taken from https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_carousel-->
-       <section class="row-box">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+       <div id="myCarousel" class="row-box">
+          <div class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -67,17 +77,17 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-        </section>
-    <!--first row -->
+        </div>
+    <!--First row - information box -->
     <section id="information-banner">
       <div class="row-box-banner">
       <h2>JOIN OUR COMMUNITY AT RIDGEFIELD</h2>
-      <p>Here at the UKs favourite gym we are here to help more people in more places to lead a healthier life every day.</p>
-      <p>Our gyms are friendly, supportive, and judgement free spaces where everybody can come in and work out.</p>
+      <p>Here at Newport's favorite independent gym we are here to help more people in more places to lead a healthier life every day.</p>
+      <p>Our gym is friendly, supportive, and a judgement-free space where everybody can come in and work out.</p>
       <span class="community-icons"><i data-feather="award" style="width:56px;height:56px;"></i> <script>feather.replace()</script></span>
    </div>
   </section>
-  <!-- second row -->
+  <!-- Second row - two boxes for facilities and equipment -->
   <section class="col-xs-12 col-sm-6 facilities">
     <div class="facilities">
             <div class="row-box">
@@ -94,7 +104,7 @@
                   <li>Membership pass operated lockers</li>
                   <li>Membership pass operated lockers</li>
                 </ul>        
-        </div>
+             </div>
           </div>
     </div>
   </section>
@@ -106,7 +116,7 @@
              <img src="/assets/images/main-equipment.jpg" alt="Photo of a barbell weight on a gym floor" width="710" height="473">
                   </figure>
        <div id="equipment-box"><p>Our equipment here at Ridgefield boasts state of the art weights area,
-          two large main gym floors, a Spin bike studio and seperate Cardio and Yoga studio</p>
+          two large main gym floors, a Spin bike studio, and separate Cardio and Yoga studio</p>
         <ul>
           <li>15 Treadmills</li>
           <li>16 Cross-trainers</li>
@@ -118,15 +128,15 @@
        </div>
       </div>
   </section>
-  <!-- third row - map -->
-     <section id="map-banner">
+  <!-- Third row - map -->
+     <div id="map-banner"> 
         <div class="row-box">
             <div class="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9882.827971893938!2d-3.006477318275454!3d51.738394402275254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871dbbfc6daaa43%3A0x404c595dc00a02f4!2sGoytre%20Wharf!5e0!3m2!1sen!2suk!4v1658065761400!5m2!1sen!2suk" title="Google map of where to find the gym" style="width:100%;height:400px;border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>   
-      </section>
-  <!-- forth row - contact us and hours -->
+            </div>  
+        </div>
+      </div>
+  <!-- Forth row - contact us and hours boxes -->
   <section class="col-xs-12 col-sm-6 contactus">
     <div class="row-box">
   <h2>Contact Us</h2>
@@ -134,7 +144,7 @@
     <div id="contact-box">
      <address>
              <br>
-               EMAIL: <a href="#" title="Go to email ridgewayfitnesstest.com" target="_blank">rwf@test.com</a> 
+               EMAIL: <a href="mailto:#" title="Go to email ridgewayfitnesstest.com" target="_blank">rwf@test.com</a> 
                 <span class="contact-icons"><i data-feather="at-sign" style="width:30px;height:30px;"></i> <script>feather.replace()</script></span>
               <br>
               <br>
@@ -178,7 +188,7 @@
           </div>
           </div>
   </section>
-  <!-- fifth row -->
+  <!-- Fifth row - join in a class box -->
   <section id="classes-banner">
          <div class="row-box-banner banner-image">
            <div id="fade-box">
@@ -188,13 +198,13 @@
            </div>
    </div>
   </section>
-  <!-- sixth row - membership boxes -->
+  <!-- Sixth row - membership boxes -->
   <section class="col-xs-12 col-sm-6 hours no-gutters membership-free"> 
     <div class="row-box">
       <h2>FREE PASS</h2>
         <div id="membership-box">
       <h3>TRY US OUT FOR FREE!</h3>
-        <p>Redeem a FREE one day pass, any time, any day - Already know someone at the gym? Come along and join them for FREE</p>
+        <p>Redeem a FREE one-day pass, any time, any day - Already know someone at the gym? Come along and join them for FREE</p>
          <a href="/sign-in.html" class="button button2">Redeem</a>
         </div>
       </div>
@@ -204,52 +214,53 @@
       <h2>FULL MEMBERSHIP</h2>
      <div id="box-left">
         <h3>OUR COMPREHENSIVE MEMBERSHIP</h3>
-        <p>Our FULL membership for £19.99 per month - all acceess - No contract - 24 hour opening - FREE parking & WIFI</p>
+        <p>Our FULL membership for £19.99 per month - all access - No contract - 24 hour opening - FREE parking & WIFI</p>
         <a href="/sign-in.html" class="button button2">Sign Up</a>
       </div>
     </div>
   </section>
-  <!-- seventh row -->
+  <!-- Seventh row - image and contact us form below -->
   <div class="workout-banner">
     <figure>
     <img src="/assets/images/workout-image-main.jpg" alt="Image of a group of people exercising with the word Workout written over it" width="300" height="200">
     </figure>
   </div>
  <!-- https://getbootstrap.com/docs/5.0/forms/form-control/ -->
- <section class="row-box">
-  <div class="col-xs-12 col-sm-6 feedbackform-photo">
-    <figure><img alt="Image of five dumbbell weights" src="assets/images/gloves.jpg" width="530" height="400"></figure>
+ <div class="row-box">
+  <div class="col-xs-12 col-sm-6 nopadding feedbackform-photo">
+    <figure><img alt="Image of five dumbbell weights" src="assets/images/contactform-gloves.jpg" width="530" height="400"></figure>
   </div>
    <div class="col-xs-12 col-sm-6 feedbackform-box">
     <div id="commentbox">
     <p>We value your feedback here at Ridgefield and would love to hear from you..</p>
     </div>
-        <form>
+        <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
         <label for="emailus-email" class="form-label">Your Email:</label>
-        <input type="email" name="email" class="form-control" id="emailus-email" placeholder="name@example.com" required />
+        <input type="email" name="email" class="form-control" id="emailus-email" placeholder="name@example.com" required>
         <label for="emailus-password" class="form-label">How can we help?</label>
         <textarea class="form-control" name="contactus" id="emailus-password" rows="3"></textarea>
-        <button class="button button2" type="submit" action="_blank">SUBMIT</button>
+        <button class="button button2" type="submit">SUBMIT</button>
       </form>
    </div>
-  </section>
- <!-- eighth row-->
+  </div>
+ <!-- Eighth row - about us box -->
   <section id="aboutus-banner">
     <div class="row-box-banner">
     <h2>ABOUT US</h2>
-    <p>Started in 2019, Ridgefield Fitness has strived to become one of the best..Here at the UKs favourite gym we are here to help more people in more places to lead a healthier life every day.
-    Our gyms are friendly, supportive, and judgement free spaces where everybody can come in and work out. Started in 2019, Ridgefield Fitness has strived to become one of the best..Here at the UKs favourite gym we are here to help more people in more places to lead a healthier life every day.
+    <p>Our amazing Ridgefield Fitness Gym started in 2019 out of a passion to bring an affordable and friendly gym to Newport. Fast-track to today, and
+       we have expanded the facility to include bigger weight areas, studio rooms and changing rooms for customers. We are a family run business and are proud of the
+       sucessess and the achievements both ourselves and our customers have achieved over the last 3 years
     </p>
     <span class="community-icons"><i data-feather="home" style="width:56px;height:56px;"></i> <script>feather.replace()</script></span>
  </div>
   </section>
-  <!-- nineth row - image -->
+  <!-- Nineth row - image -->
   <div class="bottom-image-banner">
     <figure>
         <img src="/assets/images/main-workout-bottom.jpg" alt="Photo of a group of people stretching in a exercise class" width="100" height="600">
     </figure>
     </div>
- <!-- footer and social links -->
+ <!-- Footer and social links -->
  <footer>
   <div id="footer-information">
           <ul class="list-inline social-links">
