@@ -16,15 +16,13 @@ body{
   text-align: center;
   background: #8aa6a3;
   }
-/* Carousel container */
-.slideshow-container {
+.slideshow-container { /****** Carousel container */
   position: relative;
   margin: auto;
 }
 .item {
   max-height: 600px;
 }
-/* Main h1 heading style */
 .header h1 {
   font-size: 5vw;
   text-transform: uppercase;
@@ -36,7 +34,6 @@ body{
 font-weight:900;
 font-size: 2vw;
 }
-/* Style of h2 headings */
 h2 {
   color: #000000;
   font-weight:900;
@@ -45,10 +42,10 @@ h2 {
   text-align: center;
   padding-bottom: 10px;
 }
-#big { /* Creating space inbetween heading and p text */
+#big { /********** Create space between header text */
 line-height: 1.8em;
 }
-#menu {  /* Style of top navigation links */
+#menu {  /******** Style of top navigation links */
   font-size: initial;
   list-style-type: none;
   letter-spacing: 2px;
@@ -85,7 +82,13 @@ line-height: 1.8em;
 a {
   color:#000000; /* colour of email link */
 }
-.row-box-banner { /* style for background box with border */
+.row-box-banner { 
+  font-size: large;
+  padding: 15px 50px 15px 50px;
+  text-align: center;
+  background-color: #ffffff;
+} 
+.box-inner { /* style for background box with border */
   font-size: large;
   padding: 15px 50px 15px 50px;
   text-align: center;
@@ -105,7 +108,7 @@ a {
 .community-icons { /* Icon for About Us box */
   display: block;
 }
-#information-banner, #aboutus-banner { /* Information row box under carousel, About Us box */
+#box-outer, #aboutus-container { /* Information row box under carousel, About Us box */
   margin-top: 10px;
   padding: 10px;
   background-color: #ffffff;
@@ -113,7 +116,7 @@ a {
 .banner p{
   text-align: center;
 }
-/* Full width img boxes to control height */
+/* Full width img boxes to control height 
 .page-image-banner {
   border: 5px solid white;
   margin-top: 10px;
@@ -123,7 +126,17 @@ a {
   width: 100%;
   object-fit: cover;
 }
-/* Facilities and equipment box */
+*/
+.image-background {
+  border: 5px solid white;
+  margin-top: 10px;
+}
+.image-background img {
+  max-height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+/**************************************************************************** Facilities and equipment box */
 #facilities-box {
   font-size: large;
   padding: 15px 0 1px 0;
@@ -150,7 +163,7 @@ a {
   border: 0;
   padding: 0 0 0 2px;
 }
-/* Sign up and log in page */
+/************************************************************************************** Sign up and log in */
 .accountform {
   padding: 5px 10px 10px 10px;
   margin: 5px;
@@ -183,18 +196,18 @@ label, #username {
 .passes {
   background-color: #f2f185;
 }
-/* Map box */
-#map-banner {
+/************************************************************************************************* Map box */
+#map-container {
   float: right;
   width: 100%;
   padding: 0;
 }
-.map {
+.map-image {
   overflow: hidden;
   width: 100%;
   height: 400px;
 }
-/* Opening hours and contact us box */
+/*************************************************************************** Opening hours & Contact boxes */
 address {
   letter-spacing: 2px;
   margin-bottom: 33px;
@@ -233,8 +246,13 @@ address {
  font-size: large;
  line-height: 222%;
 }
-/* Join our classes link with img in the background */
-#classes-banner {
+.fakeimg {
+  background-color: rgba(138, 166, 163, .3);
+  width: 100%;
+  padding: 20px;
+}
+/******************************************************************* Background image with link to classes */
+#classes-background {
   float: right;
   width: 100%;
   padding: 10px;
@@ -247,22 +265,22 @@ address {
   background-size: cover;
   padding: 60px;
 }
-#fade-box {
+#fade-background {
   text-transform: uppercase;
   padding: 5px 2px 5px 2px;
   letter-spacing: 3px;
   background-color: rgba(180, 180, 180, .8);
 }
-/* Membership option boxes */
-.membership-free {
+/********************************************************************************* Membership option boxes */
+.membership-free-container {
   float: left;
   padding: 0 5px 0 0;
 }
-.membership-full {
+.membership-full-container {
   float: left;
   padding: 0 0 0 5px;
 }
-#membership-box, #box-left {
+#membership-box-text, #box-left-text {
   padding: 20px;
   margin: auto;
   color: white;
@@ -289,23 +307,14 @@ address {
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-/* Background to the opening time and contact us boxes */
-.fakeimg {
-  background-color: rgba(138, 166, 163, .3);
-  width: 100%;
-  padding: 20px;
-}
-.scrollmenu tbody:hover {
-  background-color: #E69C95;
-}
-/* Full width image underneath membership boxes */
-.workout-banner {
+/************************************************** Full width 'workout' image underneath membership boxes */
+.workout-banner-image {
   display: inline-block;
   margin: 0;
   margin-top: 10px;
   border: 10px solid white;
 }
-/* Contact us email form and image */
+/************************************************************************* Contact us email form and image */
 .feedbackform-photo img {
   height: 430px;
   margin-left: 0;
@@ -329,16 +338,43 @@ address {
 #commentbox {
   padding: 10px;
 }
-.bottom-image-banner {
+/*************************************************************************************** Bottom page image */
+.bottom-image-container {
   margin-top: 10px;
   border: 10px solid white;
 }
-.bottom-image-banner img {
+.bottom-image-container img {
   max-height: 600px;
   width: 100%;
   object-fit: cover;
 }
-/* Timetable page */
+
+/****************************************** Timetable page *************************************************/
+/***********************************************************************************************************/
+.timetable-container {
+  float: right;
+  width: 100%;
+  padding-bottom: 5px;
+}
+.timetable-container p {
+  text-align: center;
+}
+.scrollmenu { /* scroll bar under table */
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+.scrollmenu, table {
+  text-align: center;
+  padding-bottom: 14px;
+  text-decoration: none;
+  border-spacing: 0px;
+  width: 100%;
+  height: auto;
+}
+.scrollmenu tbody:hover {
+  background-color: #E69C95;
+}
 table {
     border-spacing: 0px;
     width: 100%;
@@ -377,19 +413,6 @@ tr .head th:first-child {
 tr .head th:last-child {
     border-top-right-radius: 5px;
 }
-.scrollmenu { /* scroll bar under table */
-  background-color: white;
-  overflow: auto;
-  white-space: nowrap;
-}
-.scrollmenu table {
-  text-align: center;
-  padding-bottom: 14px;
-  text-decoration: none;
-  border-spacing: 0px;
-  width: 100%;
-  height: auto;
-}
 .pdf-download { /* PDF download link */
   display: block;
   text-align: center;
@@ -400,8 +423,7 @@ tr .head th:last-child {
   font-size: 20px;
   letter-spacing: 3px;
 }
-/* Gallery images on timetable page */
-#timetable-gallery {
+#timetable-gallery { /* Timetable images */
   display: inline-block;
 }
 .gallery {
@@ -438,7 +460,9 @@ tr .head th:last-child {
   display: table;
   clear: both;
 }
-/* Gallery page */
+
+/****************************************** Gallery page ***************************************************/
+/***********************************************************************************************************/
 #photos-gallery {
     clear: both;
     line-height: 0;
@@ -448,7 +472,9 @@ tr .head th:last-child {
 .responsive-gallery {
   padding: 5px;
 }
-/* Footer and Social links */
+
+/****************************************** Footer and Social links ****************************************/
+/***********************************************************************************************************/
 .inline-block {
   display: inline-block;
 }
@@ -486,6 +512,7 @@ tr .head th:last-child {
 .social-links-hover:hover {
   color: #E69C95;
 }
+
 /***************************** laptop max width 4000px **************************************************/
 @media only screen and (max-width: 4000px) { 
   .responsive { /* four gallery img boxes on Timetable page */

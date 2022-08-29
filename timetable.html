@@ -2,14 +2,24 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="Ridgeway Fitness, a Gym Fitness website for an Independant Gym in Newport Wales UK.">
+    <meta name="keywords"
+    content="gym, Newport, Wales, fitness, exercise, gym membership, free gym pass, exercse classes, personal training, sport">
+
     <title>Ridgeway Fitness</title>
+
+    <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Icons used throughout this site -->
     <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   </head>
+  
   <body>
     <header>
       <div class="header">
@@ -19,7 +29,7 @@
         </div>
       </div>
     <nav>
-     <div class="topnav">
+     <div class="topnav"> <!--Nav bar -->
       <ul id="menu">
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="sign-in.html">Sign In</a></li>
@@ -30,16 +40,15 @@
     </nav>
     </header>
   <div class="container">
-  <section> <!--banner image -->
-    <div class="page-image-banner">
+   <!--Banner image -->
+    <div class="image-background">
       <figure>
-      <img src="/assets/images/ropes-membership-image.jpg" alt="Photo of two people exercising using ropes" width="100">
+      <img src="/assets/images/ropes-membership-image.jpg" alt="Photo of two people exercising using ropes" width="1256" height="834">
       </figure>
     </div>
-  </section>
-  <!-- timetable-->
+  <!-- Timetable-->
     <section class="timetable-box">
-    <div class="banner">
+    <div class="timetable-container">
        <div class="row-box">
           <h2>CLASSES TIMETABLE</h2>
           <div class="scrollmenu">
@@ -121,18 +130,17 @@
             </tr>
         </table>
           </div>
-          
          <div class="pdf-download">
-          <a target="_blank" href="#">
-            <h3>Download PDF Here</h3>
-            <span class="sr-only">Download PDF Timetable</span>
-        </a>
+          <a target="_blank" href="/assets/documents/Timetable.png">
+            <h3>Download Timetable Here</h3>
+            <span class="sr-only">Download Timetable Here</span>
+          </a>
          </div>
        </div>
       </div>
     </section>
- <!-- Gallery layout and code taken from https://www.w3schools.com/css/css_image_gallery.asp-->
-    <section id="timetable-gallery">
+ <!-- Gallery layout and code from https://www.w3schools.com/css/css_image_gallery.asp-->
+    <div id="timetable-gallery">
 <div class="responsive">
   <div class="gallery">
     <figure>
@@ -165,8 +173,8 @@
     <div class="desc">Our classes are taught by a professional team of knowledgeable Personal Trainers. 121 sessions available </div>
   </div>
 </div>
-    </section>
- <!-- footer and social links -->
+</div>
+ <!-- Footer and social links -->
  <footer>
   <div id="footer-information">
           <ul class="list-inline social-links">
