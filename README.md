@@ -2,99 +2,83 @@
 
 [View my live project here](http://)
 
-My focus is to create a easy to navigate site with clear signposting of links and pages. I want customers to be able to quickly find prices for membership, easily find out where the Gym is located, and the times the gym is open. I also want customers to be able to find this information using one click on my website, and not be required to contact the gym by phone or email to have these questions answered.
+Created to provide information on what is on offer at the gym, the environment inside the gym itself, and easy links to find out what is on at the gym and how to join.
 
-I am looking for my site to be of value to the customer as it should answer all of their questions by them easily navigating between a few linked pages on the site, and to help them establish whether they would like to try out the gym for free or sign up as a member.
-The site should also help to show prospective customers the offers and facilities at the Gym, and helping to obtain new business, and to retain existing customer by providing relivant and clear updates regarding the gym and also access to their Online Account.
+This website is made up of the following sections:
 
-My motivation for creating this site is to try and make it easy and very accesable for prospective customers and members to find out information about where the gym is, how much they charge and where to find them. I want to be able to show off the features they have on offer in the gym, and make it sound and look like an appealing venue.
-I want to make navigating the site easy and to make sure the informaion is not cluttered and there is value its content.
+1. Nav bar and carousel images
+2. Two text boxes listing the Facilities and Equipment at the gym
+3. Map of where to find us
+4. Two text boxes listing the Opening hours and Address information
+5. Information row telling users that we offer classes and providing a link to the classes page
+6. Two text boxes with links to the sign in page, and listing the Free Pass information and Full Membership information
+7. Contact us form box
 
-The gym is an independant local gym, so I want to try and make it look like a great place to join and become a member of. I am looking to add several photos in a slide show which would showcase the staff helping members, the classes happening at the gym, and the types of equipment and facilities available.
+8. Gallery page with multible photos
 
-I want my site to stand out for its simple layout, but its ease to navigate and find out relivant information needed. I want my site to stand out for its great colour use, and I want to be able to use neon motivting headings with a darker background and boxes, to give my site an 90's type of feel.
+9. Sign In page with two boxes for logging in and creating new account
+
+10. Timetable page with a timetable for classes and images of what some of the classes involve
+
+The business goals for this website:
+
+1. To showcase the inside of the gym and users having fun
+2. To help users find where we are located and times we are open
+3. To draw in first time visitors to trying out the gym or signing up for membership
+4. To show the state of the art equipment and classes we offer
+
+The user goals of this website:
+
+1. As a first-time visitor, I want to be able to see images of the inside of the gym and some of the rooms.
+2. As a first-time visitor, I want to be able to find what equipment they have at the gym, and what kind if facilities they have there.
+3. As a first-time visitor, I want to be able to see where the gym is located and have a map to click on so I can see straight away whether the gym is close enough to visit.
+4. As a first-time visitor and returning visitor, I want to be able to easily find the full address and contact information of the gym, such as the email address and opening hours so if I wanted to contact the gym or know what time they close.
+5. As a first-time visitor, I want to be able to see how I can come down and try the gym, or how much to join the club.
+6. As a first-time or frequent visitor to the site, I want to be able to find the classes available and what times they are on.
+7. As a returning visitor, I want to be able to find where to create an account, and then to log in as a frequent visitor.
+8. As a first time visitor, I would like to see other people in the gym who are members or who have used the gym, so I can get an idea of what the gym is like to train in.
 
 ----
 
-## User Experience (UX)
+<h2 align="center">(UX)</h2>
 
-### First time visitor goals
-
-1. As a first time visitor to my site, I want them to enjoy the colour scheme and layout of my Home page and pages. I want them to be able to look at my Home page and instantly know what to press or where to scroll to find out the basics they may want to know, such as the Opening Hours, a Map of where to find us, and our Membership prices.
-2. I want them to be able to navigate the site to then find out any further information such as the types of classes the gym offers and the dates and times. Also I want them to be able to follow the link to Our Gym and find out the information about who started the gym and what facilities and equipment they have on offer there.
-3. I want the visitor to feel as though it is a modern, responsive and professional looking website, and have confidence in the information I am putting out.
-
-### Returning visitor goals
-
-1. As a returning visitor or a member, I want them to be able to to log-in to their account easily and find where this is on the site. I also want them to be able to find and know where the Timetable page is, and that it is easy to read and informative for returning visitors.
-2. I want returning visitors to easily be able to find the contact information if they needed to speak to the gym re an issue with left belongings at the gym, or if they want to contact their PT.
-3. I am looking for returning visitors get obtain any information they need during their returning visit to the site, that they may not have been looking for on their first visit. This could be access to the gyms Instagram page or Facebook page, so they can look at photos and also perhaps upload their own to the site.
-
-### Frequent visitor goals
-
-1. As a frequent visitor I want customers  to keep coming back to relivant interesting information, or upto date news on the club like opening hours over the Christmas Holidays for example, where they would find information easily. 
-2. I would like there to be a 'review' page, where visiting customers or members can leave a review and optional photos of their visit to the gym. This is something I have as a plan-B however, and maybe will get the site created and running to add this at a later date.
+## Strategy
 
 ### Target audiance
 
-1. The target audiance would probably be anyone who is considering working out for the first time, and who wants to see if there is a gym close to them with the right facilities for them, or who maybe wants to see if they offer PT support if they joined.
-2. There would be customers who are regular exercisers and who want to try out or change to a new gym with new equipment. A customer who probably looks straight at the gym equipment and the classes timetable first when visiting the site.
-3. I believe age wise it may be very varied, as the age of members could be from 17 with no upper age limit, and a lot of the classes and equipment may appeal to older retired people who are looking to stay fit and healthy.
-4. If the gym is located around offices then I can imagine office or shop workers may find it convenient to pop by the gym after work before heading home, so customer who want to see what classes are on during their lunch break or after 5pm would probably make up quite a few numbers to the site.
-5. I feel that prospective customer may make more of an emotional purchase with us through the site, rather than just focussing on the prices or by impulse. If people are looking on the site and they see motivating photos of people working out, men or women getting fit and healthy and looking toned, it could make people feel more motivated to join up and take a first step in getting them selves in that shape as well, and it could help to create an emotional response that could lend itself to signing up and starting the journey they are imagining.
+- Users who are new or exercise often, who wants to see if there is a gym close to them with the right facilities for them.
+- Users who are looking for ceratin machines that they like to use, and would be aiming to find this out before visiting.
+- Regular exercisers who are looking to move to a new gym.
+- Users of any age who are looking to start getting healty and start exercising in a gym for the first time.
+- Local people in the area if they have walked past the gym, or office/shop workers who have noticed the gym in the area.
+- I feel prospective users may make more of an emotional purchase with us through the site, rather than just focussing on the prices or by impulse.
 
-----
+## Scope
 
-## Features
+After looking at the desired user and business goals, I am including the following into the site:
 
-### Functional specifications
+- Nav bar with easy to read links to Gallery page, Timetable page and Sign In page
+- Information on the club being an inclusive and friendly place to train
+- Links from the Home page which explain there are classes
+- Information boxes to show the type of equipment and facilities on offer
+- Images of people having fun exercising, and aim to inspire users to get fit
+- Timetable page link with a clear and easy to read timetable and some information on what types of classes are
+- Links to the social media pages for the gym
+- A sign up and log in page with easy to navigate informaion on how to join us
+- A map of where to find the club near the very top of the page
+- Easy to find membership box options and how much it is to join
 
-1. New ideas for a future release would be to include more of a members and visitors page, where there is a board of photos that can be posted from the customers and also staff. There would also be a board where you can leave a comment or review of staff or the gym.
-2. I would also consider having the membership buttons to straight to a new page, where the options for membership is written over a whole page. Although at the moment as I dont think there is too much clutter or information on the Home page, it may look a bit bare if I just had 'Click here for a FREE day pass' as a box content.
-3. I am looking to include 4 page links on my Home page. These are the 'Home' page which would bring you back to the main page. There will be a 'Timetable' page which would take you to a Monday-Friday timetable text box with smaller boxes of the classes title and time info. There will be a page called 'Our Club' which would tell you a small paragraph of information regarding who runs the gym and when they first started. Half way down this page there would be a heading of 'Facilities and Equipment' where customer can look up the types of equipment they have and whether they have a studio room or pool etc. The last page is the 'Sign-In' page, which would take them to a page where at the top there is the option to log-in as a member, or sign-up and create an account.
-4. The main lay out boxes are repeated through the website, and the main image remains at the same height and lengh throughout. I am also hoping to create a sliding photo gallery on the Home page of the website that includes several photos of inside the gym itself, so customers get to see what it is like inside the gym.
-5. I am going to include two links in the bottom right of the page for Instagram and Facebook.
+## Structure
 
-### Content requirements
+I opted for the website to be over multible pages, however the main Home page is scrollable with more informaion whereas the other pages purely show the Timetable, sign in boxes or the gallery images.
+I chose to have the sign in page seperate for ease of use if someone has viewed the website before and are now ready to sign up with us, and therefore gives them direct access to this page. Also with exsisting members it gives them direct access to log into their account without having to navigate through the main Home page.
+The Home page is structures to show text boxes floating horizontaly down the page when viewed on a larger screen, and the boxes are broken up with informaion row boxes telling users about the club itself or that the is a classes page and providing a link to this.
+Despite being in row blocks with a background, I think this is easy for users to navigate and the informaion flows down the page.
 
-1. Regarding content on the site, I am looking to make all content relivant and specific to customers wanting to know more about the gym and how to join or try out the gym. I am going to include a Map at the bottom of the page, with the opening times and also the contact information such as email, phone and address on either side of the map at the bottom of the page.
-2. Content for the membership options will be very easy to read and find, and there will be 3 options to choose from, these will be a Free day pass, an Off peak membership, or an All access membership. As this is going to be a local family run gym, there would only be a couple of easy to manage membership types.
-3. In the top left of the Home page there is the gyms logo and the club name next to it.
-4. The content on the 'Our Gym' page will be including a bullet point list of equipment items and weight types, and also the facilities would be in a list so customers can easily look down these to see if they have what they are looking for at the gym.
-5. The Sign-In page would include simple information the customer is looking for, as they are either looking to easily log in or create an account. It would have the easy to read sign posting of where to do this in the middle of the box on the page.
+## Skeleton
 
-### Interaction design
+### Original Wireframes
 
-1. I am looking to create a Nav bar in the top right of my site, as this tends to be where people expect it to be. Also I will be making this Nav bar with the Home page first, Timetable second as I think this is a main page that new or frequent users would access. The Our club page is next as new users would be looking to find out what is at the gym when deciding whether or not to join. the Sign-in page is next as exisiting members probably expect this to be in the corner right, as a lot of other websites have this in the corner. The same nav bar and order would sppear on every page of the site.
-2. I am also going to make the Logo of the site in the top left corner. This will catch peoples eye as soon as the site loads, and tells them they are on the right page. I am also going to link the Logo into returning back to the Home page, as this also tends to be the norm with a lot of other websites.
-3. Colour scheme is going to be the same throughout, this is going to be a muted grey or dark background, with lighter coloured boxes and then white or neon coloured headings or touches with give a pop of colour and reflection off of some of the boxes.
-4. The layout on the Home page will be three boxes going horizontaly across the middle of the page, with the photo above and three other boxes of the same size directly below with the Opening times, map and contact info. I am looking for the boxes to still look different enough though, as they will have icons inside them next to the writting, the map will also break up these a little as it wouldnt have a box border like the others. There would be three 'join now' buttons to break up the look of the six boxes together as well, so I think it is enough to make it look neat and eact to look at, but not looking like idential boxes.
-
-### Information architecture
-
-1. I am using the 'Hub and Spoke' layout for my site, as there will be 4 seperate pages with no other onpage links that would take you into another page not included on the nav bar.
-2. Priority one - Membership information and easy to read options and price.
-3. Priority two - Finding the Opening times, Map and Contact information easily and on the Home page.
-4. Priority three - Large photo on each page spreading lengh ways to the corners of the page.
-
-----
-
-## Design
-
-### Colour scheme
-- There are three main colours used throughout my site, these were taken from [Color Adobe](https://color.adobe.com/explore)
-
-![Semantic description of image](/assets/documents/colourpalette.png "Colour Palette")
-
-### Typography
-- I have used the Roboto font style throughout my site, this was from [Google Fonts](https://fonts.google.com/specimen/Roboto?query=ro)
-
-### Imagery
-- All images on my site were taken from both [Pexels](https://www.pexels.com/) and from [Adobe Stock Images](https://stock.adobe.com/uk/photos)
-
-----
-
-## Wireframes                      
 - Home page wireframe - [View](../ridgewayfitness/assets/wireframes/home-page.png)
 
 - Timetable page wireframe - [View](../ridgewayfitness/assets/wireframes/timetable-page.png)
@@ -103,9 +87,130 @@ I want my site to stand out for its simple layout, but its ease to navigate and 
 
 - Membership page wireframe - [View](../ridgewayfitness/assets/wireframes/membership-page.png)
 
+
+## Surface
+
+- There are three main colours used throughout my site, these were taken from [Color Adobe](https://color.adobe.com/explore)
+
+![Colour Palette](/assets/documents/colourpalette.png)
+
 ----
 
-## Technologies Used through the building of my site
+<h2 align="center">FEATURES</h2>
+
+This is a fully responsive website created mobile-first, and is devided into several sections of information on the Home page, and three links to other pages on the site.
+The images throughout the site were taken from both [Pexels](https://www.pexels.com/) and from [Adobe Stock Images](https://stock.adobe.com/uk/photos) and the font I chose for the site had been Roboto from [Google Fonts](https://fonts.google.com/specimen/Roboto?query=ro)
+
+## Navbar
+
+- The navbar is placed horizontically under the main heading, and consists of 4 page links taking you to the Home page, Gallery page, Sign In page and Timetable page. The navbar is full responsive and when viewed on smaller screens these take up 100% of the width and stack onto top of eachother. The nabar incorporates a pink line under the page you are currently looking on, this pink is also then carried across the site with other links.
+
+## Carousel
+
+- The carousel offers the users 4 main full width images showing people working out and having fun in the gym, and also of the inside of the gym itself and the equipment. The carousel is auto rotating through the five images, and there is also a scroll bar either side of the images and also a clickable dot so users can go back to the previous image. The height of the carousel is mirrored throughout the site for the other main page images, and also is fully resposive to downsize when viewed on smaller devices. The carousel code that I used had been taken from Bootstrap.
+
+## Facilities and Equipment boxes
+
+- The facilities are equipment boxes offer a list layout of the types of equipment at the gym, and also the facilities on offer. This is easy to read and tells users the direct information they are looking for as to what is available. There is also an image above both of the boxes and  and it is clearly signposted with a heading.
+
+## Map
+
+- I have featured a full width map with a white border to continue the style of the site, and this easy to read and for users to click on to find the club.
+
+## Opening hours and Address boxes
+
+- I have again taken both boxes for opening hours and address and put these as horizonal boxes when on a larger screen. The have the same light background and clear easy to read black text in uppercase. I also included icons from 'Feather' to use next to the address and contact number informaion, this helps to even up the box on the right hand side.
+
+## Membership boxes
+
+- The two membership option boxes are next to each other horizontically when viewed on larger screens, and feature minimal text and information in order to highlight the needed information only and not overload the user.
+I have included a link on both boxes which takes you to the sign up page and instructs you where to create an account to join.
+The background colour was taken from the colour palette and is the darkest background on the site and I feel helps to break-up the other lighter colour boxes around these.
+
+## Contact us box
+
+- I have included a contact us box, which gives users or members a chance to contact us regarding any problems they have navigating the site, something they found when using the gym or a question about joining. I think it helps to show that the gym wants to hear from its users or visitors and would also help to identify any gaps in the information on the site for future releases.
+
+## Sign In page
+
+- The sign in page is easy to use, the colours are copied throughout the site from the colour palette, and gives easy to read guidance on logging into your account or how to create an account with us.
+
+## Timetable page
+
+- The timetable page shows easily the classes on offer and wen during the week that these are on. The sliding bar also appears when the site is viewed on smaller devices to help scroll the timetable from right to left.
+There are also four boxes with images under the timetable which give some guidance on what some of these classes are and why you may choose to go to them.
+
+### Gallery page
+
+- The gallery page offers a glimpse into the types of users and equipment found in the gym. All the images are taken inside the gym and they show users and members happy and enjoying their workouts. The images also show clean gym equipment and a brightly lit and well maintained gym facility.
+
+----
+
+<h2 align="center">TESTING</h2>
+
+### User Stories:
+
+1. As a first-time visitor, I want to be able to see images of the inside of the gym and some of the rooms.
+
+I have created a Carousel rather than a still image on the Home page so you are able to see 5 large images of inside the gym, and also some people working out in the gym itself.
+The 5 images are on a rotation, and also scattered around the site are other large images of inside the gym.
+
+![Screenshot of a Carousel image from my Home page](/assets/documents/carousel.png)
+
+
+2. As a first-time visitor, I want to be able to find what equipment they have at the gym, and what kind if facilities they have there.
+
+The Equipment and Facilities boxes are the first thing you come across when loading up my site, its easy to read the equipment that is in the gym and the facilities. Visitors would then be shown images throughout the site where they would be able to see the kinds of machines, studios and equipment that had been mentioned on the list.
+
+![Screenshot of the Equipment and Facilities boxes on my Home page](/assets/documents/facilities-equipment.png)
+
+
+3. As a first-time visitor, I want to be able to see where the gym is located and have a map to click on so I can see straight away whether the gym is close enough to visit. 
+
+The map to find the gym is 100% width and slim so it stands out and is easy to find and see at the top of the Home page. I have made this with a simple border to match other boxes on the site, and as it is a map that is clickable I have not signposted this with a heading.
+
+![Screenshot taken of the Map on my Home page](/assets/documents/map.png)
+
+
+4. As a first-time visitor and returning visitor, I want to be able to easily find the full address and contact information of the gym, such as the email address and opening hours so if I wanted to contact the gym or know what time they close.
+
+As you scroll under the map on the Home page, you will then easily find the contact information such as telephone number, and also the opening hours of the gym. I have these as floating boxes so visitors can easily find all of this informaion on one horizontal line, or above and below eachother when viewed on a mobile device.
+
+![Screenshot of the contact hours and address on my Home page](/assets/documents/contact-information.png)
+
+
+5. As a first-time visitor, I want to be able to see how I can come down and try the gym, or how much to join the club.
+
+In order to find the type of membership available and being able to visit the gym, this can be found as two horizonal boxes under the contact boxes information. I have these boces towards the bottom of the site, and to break up having four boxes together when on a larger screen, I have input a image banner inbetween this.
+
+![Screenshot taken of my membership information boxes on my Home page](/assets/documents/membership-boxes.png)
+
+
+6. As a first-time or frequent visitor to the site, I want to be able to find the classes available and what times they are on.
+
+There is an easy to find timetable tab page on the nav bar, which takes you sraight to a large timetable and also four boxes where you can find out a little more information on what some of the classes are.
+If visitors miss the timetable link on the nav bar, I have a banner image and text half way down the Home page which asks if you would like to go to a class, and provides a link which takes you straight to the Timetable page
+
+![Screenshot of the timetable for classes from Timetable page](/assets/documents/timetable-page.png)
+
+
+7. As a returning visitor, I want to be able to find where to create an account, and then to log in as a frequent visitor.
+
+There is a very clear sign in tab on the top nav bar when first visiting the Home page, this will then take you to an easy to navigate page where the first box shows you that you can log in, and it tells you some information bullet points on what you can view if you log into your account.
+The create account box is directly under the log in box, and is easy to distinqguise the two boxes and the form text inside them. There is also bullet point text next to the create account box which tells you some benefits of signing up, and also information on being ble to create an account to joing the club or try it for a free day pass.
+
+![Screenshot taken of the sign in boxes from Sign In page](/assets/documents/sign-in-page.png)
+
+
+8. As a first time visitor, I would like to see other people in the gym who are members or who have used the gym, so I can get an idea of what the gym is like to train in.
+
+I have created a gallery page to showcase lots of people exercising and having an enjoyable time at the gym. There are several images throughout the site of people execising on their own or in a group, however having a whole gallery page helps to motivate new and returning visitors to try out the gym and sign up to a free pass or membership.
+
+![Screenshot from the Gallery page of people working out](/assets/documents/gallery-page.png)
+
+----
+
+<h2 align="center">TECHNOLOGIES USED</h2>
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) (Used as the basic building block for the project and to structure the content)
 
@@ -137,7 +242,8 @@ I want my site to stand out for its simple layout, but its ease to navigate and 
 
 ----
 
-## Changes made from my original Wireframes:
+## Changes made from original Wireframes:
+
 - Creating a Gallery page. 
 I had set on my wireframe and plan to do a membership page, with a sign-up box and a free day pass page. When I had created the sign in and create account page to mirror the same look and design as the sign-in page, I realised that the membership page was best used instead to portray more images of the gym and people using it, as the only other images used were in the carousel where people could see what it was like at the gym. I also thought that as it is a simple sign-up for the free pass and the one membership on offer, I would ask members to ‘create an account’ in order to be able to purchase and sign-up for the free pass.
 
@@ -147,43 +253,20 @@ I had set on my wireframe and plan to do a membership page, with a sign-up box a
 
 - I had started by adding 8 images under the timetable box, however, I thought this looked quite crowded, and also on smaller screens the photos would scroll for quite a while to get through them. I felt as though 4 was a good number, and it gave me more than enough space to include all of the information about what different classes were.
 
+- I started by having my opening hours box written with paragraph and line breaks, however I changed this to UL and li when I realised that it was not the right way to use paragraphs. I then had an issue with the opening hours box effecting my ul on my timetable page, so had to make sure I separated them with different id’s.
 
-
-
-
-Input col-xs and col-sm. I had created the site using float and width for my colours, I ran into a few problems with doing this as I am then having to add many media breaks due to my site when the screen is below a certain screen, especially when I get down to mobile phone size. I had started to use a grid before I had written any code for this project, however at that time I didn’t understand it well enough to implement this from the beginning. However after looking on W3 Schools, I came across the Bootstrap grid again and realised this would help in my horizontal boxes. 
-
-I had a few issues with my images being too big for my screen, and when viewing on a wide screen the img would take up the majority of the screen. I managed to get around this by adding a max-height to the main images and carousel, and also adding an ‘object-fit’ so it may end up cutting a little of the photo off for extra large screen sizes, but would fit correctly at normal laptop sizes, tablet and mobile. I will also try and get the large screen image to appear correctly also.
- 
- Contact-us box. I have an img on the left and a comment box on the right, however the img despite adding a max-height and ‘object-fit’, I could not seem to get the img to not shrink down lower than the comment box when downsized, so there had been a gap at the bottom of the image until it hit an XS size and went into 100% width ********How did I solve this???
-Carousel img - I had issues with the carousel as firstly the images were only showing with a height of 300px, I helped this by adding a max height onto the images, so the carousel expands to 600px height and then the images were set to ‘overflow-hidden’
-
-### MAIN PAGE
-I started by using a template on W3Schools which helped give me some guidance on creating boxes and floating them. I did not keep the layout and the majority of the code, however I did use some of the class names. I found this helped me to see how horizontal boxes float to the left, and to image how my boxes may look on my website.
-
-I decided to add a ‘container’ around the body of all of my pages as I had originally wanted padding on the left and right margins, however I ran into difficulty with when the sizes moved down to iPad and mobile phone sizes, as the margins did not line up and made different size gaps. I had read that you can counter-act this with margin 0, however I then found that container automatically added a large margin around the content, and also centred the body of my page which I really like the effect and also that my images and carousel appear very clear. I have decided to add the container after the heading and nav bar, so this
+- I decided to add a ‘container’ around the body of all of my pages as I had originally wanted padding on the left and right margins, however I ran into difficulty with when the sizes moved down to iPad and mobile phone sizes, as the margins did not line up and made different size gaps. I had read that you can counter-act this with margin 0, however I then found that container automatically added a large margin around the content, and also centred the body of my page which I really like the effect and also that my images and carousel appear very clear. I have decided to add the container after the heading and nav bar, so this
 adds to an affect of the heading stretching with the ‘vw’ of my heading, and it frames the page really well.
- Change to colour of membership sign in boxes and hours and contact information. This is due to running it through the Chrome developer ‘Lighthouse’ and it had given me guidance that the background and foreground colours were not clear enough. I also changed the text colour on all ‘buttons’ from white to black to help make this stand out more. 
 
-I started by having my opening hours box written with paragraph and line breaks, however I changed this to UL and li when I realised that it was not the right way to use paragraphs. I then had an issue with the opening hours box effecting my ul on my timetable page, so had to make sure I separated them with different id’s.
+## Future Updates:
 
-I originally had an image places under my header, however this was placed there to be replaced with a carousel. I found this on Bootstrap after a few weeks and implemented this on my main page. 
-
-### ISSUES
-My code passed the W3 Validation, however the Chrome Lighthouse scanning marks me down for these of images which are not the appropriate size. I have used Photoshop to re-size all of my photos, however it changes the width and auto corrects the hight itself, so I could only have the width be correct on their scan and not height.
-
-Regarding the colours of my site, I had planned on a darker version of my current colours, however when running it through Chrome Lighthouse it warned of hard to read text on the boxes I had the darker colour, and also my header was quite dark for my header and paragraph to show up. I looked online to find the best colours that would go together and corrected this throughout my site.
-
-I felt I used quite a few media breaks (and maybe needed even more) when there could have been an easier way of doing this by starting with a flex grid or a guide on Bootstrap which would help add the media breaks evenly throughout my site. I looked into them at the very start, however I did not feel confident to implement these at the time of first starting.
-
-A main error I made at the very beginning was making a few large commits. I had looked through the assessment information a while before I started, but I did not remember to take this on board and the reasons whyit was important to do this. For the first month of my project I felt as though I made quite a few changed to my original wireframe or plan, this is because I did not anticipate being able to create more than a few basic boxes, so I had made my wireframes very basic and tried to get in all the information I could into them. During that month I felt as though I had gone through lots of different options such as a grid template, and a Bootstrap template, however then decided it did not work for me when starting out, so I did not ‘commit’ any of these changes as I had incorrectly thought that commits were when you made changes that you had finished and were keeping in place, so I realised then after reading the assessment again, that it was written down as required to prove that you had not plagiarised. I mentioned to my 
-monitor about this mistake, and also have made sure I commit a lot more since then also.
-
-A warning that shows on W3C validator is ‘section does not have heading’ however I have input both id and class into section headings, however they are still showing up that the section should have a header, or else to use a div (but in our classes they advise to use sections, so I have kept these in)
+- I felt I used quite a few media breaks (and maybe needed even more) when there could have been an easier way of doing this by starting with a flex grid or a guide on Bootstrap which would help add the media breaks evenly throughout my site. I looked into them at the very start, however I did not feel confident to implement these at the time of first starting.
+I would like to fix the responsiveness on the site and create more effective and uniformed media breaks or flex grid throughout the site.
+- New ideas for a future release would be to include more of a members and visitors page, where there is a board of photos that can be posted by both users and staff. There would also be a board where you can leave a comment or review of staff or the gym.
 
 ----
 
-## Issues and Bugs found:
+<h2 align="center">ISSUES AND BUGS</h2>
 
 1. Lighthouse screenshot of a background colour issue, this had been using the rgba color (76, 89, 88, .8) and it showed as being impossible or difficult for viewers to see the text. I changed this to the colour #4C5958 and also changed the text colour from Black to White to help this stand out even more. <br>
 ![Screenshot taken from Chrome Lighthouse of background colour error](/assets/documents/background_bug.png)
@@ -195,42 +278,49 @@ A warning that shows on W3C validator is ‘section does not have heading’ how
 
 ----
 
-3. Issue with image sizing, I had this on .......... <br>
+3. Issue with image height and width had come up many times when I first ran my code through Lighthouse. I fixed this by adding the correct height and width that my images were after I ran them through Photoshop to change these, I made sure I did not add a percent sign or writing pixels, as this also then came up with an issue on Lighthouse. <br>
 ![Screenshot taken from Chrome Lighthouse of image sizing error](/assets/documents/img-Size.png)
 
 ----
 
-4. Issues with the ......... <br>
-![Screenshot taken from Chrome Lighthouse of](/assets/documents/input_bug.png)
-
-----
-
-5. During the build I had this Warning message arrise a lot. I fixed this by putting an ID on my section heading, or I changed the section to a div instead as advised on the warning. <br>
+4. During the build I had this Warning message arrise a lot. I fixed this by putting an ID on my section heading, or I changed the section to a div instead as advised on the warning. <br>
 ![Screenshot taken from W3c Validation on HTML code](/assets/documents/W3_warning.png)
 
 ----
 
-6. Running through Lighthouse the issue of meta tags descriptopn arose, I fixed this by added a meta description on my page and a contect description. Under this I also added key words to help search engines in linking my page into their searches. <br>
+5. Running through Lighthouse the issue of meta tags descriptopn arose, I fixed this by added a meta description on my page and a contect description. Under this I also added key words to help search engines in linking my page into their searches. <br>
 ![Screenshot taken from Chrome Lighthouse of meta desription error](/assets/documents/meta_issue.png)
 
 ----
 
-7. While running the Home page through, the issue of the text under my header text had been too small a size, I increased the size of the paragraph text and made this Uppercase and font-weight of 900. This then passed the test without issue.
+6. While running the Home page through, the issue of the text under my header text had been too small a size, I increased the size of the paragraph text and made this Uppercase and font-weight of 900. This then passed the test without issue.
 
-8. The 'Contact us' box and the 'hour' box had both flagged up as having a text issue where it was not very easy to read for viewers. I fixed this by adding Uppercase in CSS and also added a line spacing of 2px to help the text be clear to read.
+7. The 'Contact us' box and the 'hour' box had both flagged up as having a text issue where it was not very easy to read for viewers. I fixed this by adding Uppercase in CSS and also added a line spacing of 2px to help the text be clear to read.
 
-9. An issue came up where I did not specify Meta Tags. I corrected this by adding a Meta Description and keywords to every page heading.
+8. Issues arose on the Timetable page where the background colours and text colours did not show up correctly when I ran this through Lighthouse. I fixed this by changing the text colour to Black instead of White, and also made the background box slightly lighter for the body of the form so it would stand out a lot more and be easier to read.
 
-10. I had many issues over the site where it noticed stray tags and divs where I did not link these properly, or I had not deleted the closing tag and it had not been leading to any opening tag.
+9. I had many issues over the site where it noticed stray tags and divs where I did not link these properly, or I had not deleted the closing tag and it had not been leading to any opening tag.
+
+10. When adding the icons from Feather, I originally wanted the ticks and icons in a brighter green, however when running this through Lighthouse I found that they flagged as not showing up properly. I changed this to be a slightly darker green and these still stood out like I wanted against the background of the page.
+
+11. A warning that shows on W3C validator is ‘section does not have heading’ however I have input both id and class into section headings, however they are still showing up that the section should have a header, or else to use a div (but in our classes they advise to use sections, so I have kept these in)
+
 ---
 
-## Code passes:
+<h2 align="center">CODE PASSES - VALIDATOR</h2>
 
 1. Screen shot from Chrome Lighthouse passing the code checker. Score for performance of 3/4 is due to the height of my images not matching the recomended pxs, however the height of my images are correct, and I used Photoshop to re-size all of my images to the recommended size to keep quality and help with site loading.
 ![Screenshot taken from Chrome Lighthouse of code pass](/assets/documents/lighthouse_pass.png)
 
+----
+
 2. Screen shot from W3C HTML Validation Service of my HTML code passing without errors
 ![Screenshot taken from W3C validation of HTML code pass](/assets/documents/W3_passes.png)
 
+----
+
 3. Screen shot from W3C CSS Validation Service of my CSS code passing without errors
 ![Screenshot taken from W3C Validation of CSS code pass](/assets/documents/W3C-CSS.png)
+
+----
+
