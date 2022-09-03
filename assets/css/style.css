@@ -88,16 +88,16 @@ a {
   text-align: center;
   background-color: #ffffff;
 } 
-.box-inner { /* style for background box with border */
-  font-size: large;
-  padding: 15px 50px 15px 50px;
-  text-align: center;
-  background-color: #ffffff;
-}
 .row-box { /* style for information box background with border */
   font-size: large;
   margin-top: 10px;
   padding: 10px;
+  background-color: #ffffff;
+}
+.box-inner { /* style for background box with border */
+  font-size: large;
+  padding: 15px 50px 15px 50px;
+  text-align: center;
   background-color: #ffffff;
 }
 .banner {
@@ -477,6 +477,10 @@ tr .head th:last-child {
 /***********************************************************************************************************/
 .inline-block {
   display: inline-block;
+}
+.links-style {
+  width: 56px;
+  height: 56px;
 }
 .social-links-item {
   display:inline-block;
