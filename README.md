@@ -1,6 +1,9 @@
 <h1 align="center">RIDGEFIELD FITNESS</h1>
 
-[View my live project here](http://)
+[View my live project here](https://natkewe.github.io/ridgewayfitness/)
+
+![Screenshot of the responsive design image of my website](documents/responsive-photo.png) <br>
+This image is from [Am I responsive](https://ui.dev/amiresponsive)
 
 Created to provide information on what is on offer at the gym, the environment inside the gym itself, and easy links to find out what is on at the gym and how to join.
 
@@ -269,27 +272,27 @@ I would like to fix the responsiveness on the site and create more effective and
 <h2 align="center">ISSUES AND BUGS</h2>
 
 1. Lighthouse screenshot of a background colour issue, this had been using the rgba color (76, 89, 88, .8) and it showed as being impossible or difficult for viewers to see the text. I changed this to the colour #4C5958 and also changed the text colour from Black to White to help this stand out even more. <br>
-![Screenshot taken from Chrome Lighthouse of background colour error](documents/background_bug.png)
+![Screenshot taken from Chrome Lighthouse of background colour error](documents/background-bug.png)
 
 ----
 
 2. I had an issue with the Button text not standing out enough against the pink button background. I changed this to Black text and this passed the test afterward. <br>
-![Screenshot taken from Chrome Lighthouse of button colour error](documents/button_bug.png)
+![Screenshot taken from Chrome Lighthouse of button colour error](documents/button-bug.png)
 
 ----
 
 3. Issue with image height and width had come up many times when I first ran my code through Lighthouse. I fixed this by adding the correct height and width that my images were after I ran them through Photoshop to change these, I made sure I did not add a percent sign or writing pixels, as this also then came up with an issue on Lighthouse. <br>
-![Screenshot taken from Chrome Lighthouse of image sizing error](documents/img-Size.png)
+![Screenshot taken from Chrome Lighthouse of image sizing error](documents/img-size.png)
 
 ----
 
 4. During the build I had this Warning message arrise a lot. I fixed this by putting an ID on my section heading, or I changed the section to a div instead as advised on the warning. <br>
-![Screenshot taken from W3c Validation on HTML code](documents/W3_warning.png)
+![Screenshot taken from W3c Validation on HTML code](documents/w3-warning.png)
 
 ----
 
 5. Running through Lighthouse the issue of meta tags descriptopn arose, I fixed this by added a meta description on my page and a contect description. Under this I also added key words to help search engines in linking my page into their searches. <br>
-![Screenshot taken from Chrome Lighthouse of meta desription error](documents/meta_issue.png)
+![Screenshot taken from Chrome Lighthouse of meta desription error](documents/meta-issue.png)
 
 ----
 
@@ -313,17 +316,17 @@ I would like to fix the responsiveness on the site and create more effective and
 <h2 align="center">CODE PASSES - VALIDATOR</h2>
 
 1. Screen shot from Chrome Lighthouse passing the code checker. Score for performance of 3/4 is due to the height of my images not matching the recomended pxs, however the height of my images are correct, and I used Photoshop to re-size all of my images to the recommended size to keep quality and help with site loading.
-![Screenshot taken from Chrome Lighthouse of code pass](documents/lighthouse_pass.png)
+![Screenshot taken from Chrome Lighthouse of code pass](documents/lighthouse-pass.png)
 
 ----
 
 2. Screen shot from W3C HTML Validation Service of my HTML code passing without errors
-![Screenshot taken from W3C validation of HTML code pass](documents/W3_passes.png)
+![Screenshot taken from W3C validation of HTML code pass](documents/w3-passes.png)
 
 ----
 
 3. Screen shot from W3C CSS Validation Service of my CSS code passing without errors
-![Screenshot taken from W3C Validation of CSS code pass](documents/W3C-CSS.png)
+![Screenshot taken from W3C Validation of CSS code pass](documents/w3C-CSS.png)
 
 ----
 
