@@ -79,20 +79,20 @@ Despite being in row blocks with a background, I think this is easy for users to
 
 ### Original Wireframes
 
-- Home page wireframe - [View](../ridgewayfitness/assets/wireframes/home-page.png)
+- Home page wireframe - [View](documents/wireframe-home-page.png)
 
-- Timetable page wireframe - [View](../ridgewayfitness/assets/wireframes/timetable-page.png)
+- Timetable page wireframe - [View](documents/wireframe-timetable-page.png)
 
-- Sign In page wireframe -   [View](../ridgewayfitness/assets/wireframes/signin-page.png)
+- Sign In page wireframe -   [View](documents/wireframe-signin-page.png)
 
-- Membership page wireframe - [View](../ridgewayfitness/assets/wireframes/membership-page.png)
+- Membership page wireframe - [View](documents/wireframe-membership-page.png)
 
 
 ## Surface
 
 - There are three main colours used throughout my site, these were taken from [Color Adobe](https://color.adobe.com/explore)
 
-![Colour Palette](/assets/documents/colourpalette.png)
+![Colour Palette](documents/colourpalette.png)
 
 ----
 
@@ -155,35 +155,35 @@ There are also four boxes with images under the timetable which give some guidan
 I have created a Carousel rather than a still image on the Home page so you are able to see 5 large images of inside the gym, and also some people working out in the gym itself.
 The 5 images are on a rotation, and also scattered around the site are other large images of inside the gym.
 
-![Screenshot of a Carousel image from my Home page](/assets/documents/carousel.png)
+![Screenshot of a Carousel image from my Home page](documents/carousel.png)
 
 
 2. As a first-time visitor, I want to be able to find what equipment they have at the gym, and what kind if facilities they have there.
 
 The Equipment and Facilities boxes are the first thing you come across when loading up my site, its easy to read the equipment that is in the gym and the facilities. Visitors would then be shown images throughout the site where they would be able to see the kinds of machines, studios and equipment that had been mentioned on the list.
 
-![Screenshot of the Equipment and Facilities boxes on my Home page](/assets/documents/facilities-equipment.png)
+![Screenshot of the Equipment and Facilities boxes on my Home page](documents/facilities-equipment.png)
 
 
 3. As a first-time visitor, I want to be able to see where the gym is located and have a map to click on so I can see straight away whether the gym is close enough to visit. 
 
 The map to find the gym is 100% width and slim so it stands out and is easy to find and see at the top of the Home page. I have made this with a simple border to match other boxes on the site, and as it is a map that is clickable I have not signposted this with a heading.
 
-![Screenshot taken of the Map on my Home page](/assets/documents/map.png)
+![Screenshot taken of the Map on my Home page](documents/map.png)
 
 
 4. As a first-time visitor and returning visitor, I want to be able to easily find the full address and contact information of the gym, such as the email address and opening hours so if I wanted to contact the gym or know what time they close.
 
 As you scroll under the map on the Home page, you will then easily find the contact information such as telephone number, and also the opening hours of the gym. I have these as floating boxes so visitors can easily find all of this informaion on one horizontal line, or above and below eachother when viewed on a mobile device.
 
-![Screenshot of the contact hours and address on my Home page](/assets/documents/contact-information.png)
+![Screenshot of the contact hours and address on my Home page](documents/contact-information.png)
 
 
 5. As a first-time visitor, I want to be able to see how I can come down and try the gym, or how much to join the club.
 
 In order to find the type of membership available and being able to visit the gym, this can be found as two horizonal boxes under the contact boxes information. I have these boces towards the bottom of the site, and to break up having four boxes together when on a larger screen, I have input a image banner inbetween this.
 
-![Screenshot taken of my membership information boxes on my Home page](/assets/documents/membership-boxes.png)
+![Screenshot taken of my membership information boxes on my Home page](documents/membership-boxes.png)
 
 
 6. As a first-time or frequent visitor to the site, I want to be able to find the classes available and what times they are on.
@@ -191,7 +191,7 @@ In order to find the type of membership available and being able to visit the gy
 There is an easy to find timetable tab page on the nav bar, which takes you sraight to a large timetable and also four boxes where you can find out a little more information on what some of the classes are.
 If visitors miss the timetable link on the nav bar, I have a banner image and text half way down the Home page which asks if you would like to go to a class, and provides a link which takes you straight to the Timetable page
 
-![Screenshot of the timetable for classes from Timetable page](/assets/documents/timetable-page.png)
+![Screenshot of the timetable for classes from Timetable page](documents/timetable-page.png)
 
 
 7. As a returning visitor, I want to be able to find where to create an account, and then to log in as a frequent visitor.
@@ -199,14 +199,14 @@ If visitors miss the timetable link on the nav bar, I have a banner image and te
 There is a very clear sign in tab on the top nav bar when first visiting the Home page, this will then take you to an easy to navigate page where the first box shows you that you can log in, and it tells you some information bullet points on what you can view if you log into your account.
 The create account box is directly under the log in box, and is easy to distinqguise the two boxes and the form text inside them. There is also bullet point text next to the create account box which tells you some benefits of signing up, and also information on being ble to create an account to joing the club or try it for a free day pass.
 
-![Screenshot taken of the sign in boxes from Sign In page](/assets/documents/sign-in-page.png)
+![Screenshot taken of the sign in boxes from Sign In page](documents/sign-in-page.png)
 
 
 8. As a first time visitor, I would like to see other people in the gym who are members or who have used the gym, so I can get an idea of what the gym is like to train in.
 
 I have created a gallery page to showcase lots of people exercising and having an enjoyable time at the gym. There are several images throughout the site of people execising on their own or in a group, however having a whole gallery page helps to motivate new and returning visitors to try out the gym and sign up to a free pass or membership.
 
-![Screenshot from the Gallery page of people working out](/assets/documents/gallery-page.png)
+![Screenshot from the Gallery page of people working out](documents/gallery-page.png)
 
 ----
 
@@ -269,27 +269,27 @@ I would like to fix the responsiveness on the site and create more effective and
 <h2 align="center">ISSUES AND BUGS</h2>
 
 1. Lighthouse screenshot of a background colour issue, this had been using the rgba color (76, 89, 88, .8) and it showed as being impossible or difficult for viewers to see the text. I changed this to the colour #4C5958 and also changed the text colour from Black to White to help this stand out even more. <br>
-![Screenshot taken from Chrome Lighthouse of background colour error](/assets/documents/background_bug.png)
+![Screenshot taken from Chrome Lighthouse of background colour error](documents/background_bug.png)
 
 ----
 
 2. I had an issue with the Button text not standing out enough against the pink button background. I changed this to Black text and this passed the test afterward. <br>
-![Screenshot taken from Chrome Lighthouse of button colour error](/assets/documents/button_bug.png)
+![Screenshot taken from Chrome Lighthouse of button colour error](documents/button_bug.png)
 
 ----
 
 3. Issue with image height and width had come up many times when I first ran my code through Lighthouse. I fixed this by adding the correct height and width that my images were after I ran them through Photoshop to change these, I made sure I did not add a percent sign or writing pixels, as this also then came up with an issue on Lighthouse. <br>
-![Screenshot taken from Chrome Lighthouse of image sizing error](/assets/documents/img-Size.png)
+![Screenshot taken from Chrome Lighthouse of image sizing error](documents/img-Size.png)
 
 ----
 
 4. During the build I had this Warning message arrise a lot. I fixed this by putting an ID on my section heading, or I changed the section to a div instead as advised on the warning. <br>
-![Screenshot taken from W3c Validation on HTML code](/assets/documents/W3_warning.png)
+![Screenshot taken from W3c Validation on HTML code](documents/W3_warning.png)
 
 ----
 
 5. Running through Lighthouse the issue of meta tags descriptopn arose, I fixed this by added a meta description on my page and a contect description. Under this I also added key words to help search engines in linking my page into their searches. <br>
-![Screenshot taken from Chrome Lighthouse of meta desription error](/assets/documents/meta_issue.png)
+![Screenshot taken from Chrome Lighthouse of meta desription error](documents/meta_issue.png)
 
 ----
 
@@ -305,22 +305,25 @@ I would like to fix the responsiveness on the site and create more effective and
 
 11. A warning that shows on W3C validator is ‘section does not have heading’ however I have input both id and class into section headings, however they are still showing up that the section should have a header, or else to use a div (but in our classes they advise to use sections, so I have kept these in)
 
+12. An error appeared for the label for my 'create account' box and 'log in' box. This was because I had a 'label for' but I did not have an id on my input tag. This caused several errors.
+![Screenshot from W3C HTML validator](documents/label-error.png)
+
 ---
 
 <h2 align="center">CODE PASSES - VALIDATOR</h2>
 
 1. Screen shot from Chrome Lighthouse passing the code checker. Score for performance of 3/4 is due to the height of my images not matching the recomended pxs, however the height of my images are correct, and I used Photoshop to re-size all of my images to the recommended size to keep quality and help with site loading.
-![Screenshot taken from Chrome Lighthouse of code pass](/assets/documents/lighthouse_pass.png)
+![Screenshot taken from Chrome Lighthouse of code pass](documents/lighthouse_pass.png)
 
 ----
 
 2. Screen shot from W3C HTML Validation Service of my HTML code passing without errors
-![Screenshot taken from W3C validation of HTML code pass](/assets/documents/W3_passes.png)
+![Screenshot taken from W3C validation of HTML code pass](documents/W3_passes.png)
 
 ----
 
 3. Screen shot from W3C CSS Validation Service of my CSS code passing without errors
-![Screenshot taken from W3C Validation of CSS code pass](/assets/documents/W3C-CSS.png)
+![Screenshot taken from W3C Validation of CSS code pass](documents/W3C-CSS.png)
 
 ----
 
