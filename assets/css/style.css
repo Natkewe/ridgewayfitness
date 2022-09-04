@@ -260,7 +260,7 @@ address {
   background-color: #ffffff;
 }
 .banner-image {
-  background-image: url('images/classes-banner-image.jpg');
+  background-image: url('../images/classes-banner-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px;
