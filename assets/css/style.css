@@ -16,10 +16,6 @@ body{
   text-align: center;
   background: #8aa6a3;
   }
-.slideshow-container { /****** Carousel container */
-  position: relative;
-  margin: auto;
-}
 .item {
   max-height: 600px;
 }
@@ -116,17 +112,6 @@ a {
 .banner p{
   text-align: center;
 }
-/* Full width img boxes to control height 
-.page-image-banner {
-  border: 5px solid white;
-  margin-top: 10px;
-}
-.page-image-banner img {
-  max-height: 600px;
-  width: 100%;
-  object-fit: cover;
-}
-*/
 .image-background {
   border: 5px solid white;
   margin-top: 10px;
@@ -348,7 +333,6 @@ address {
   width: 100%;
   object-fit: cover;
 }
-
 /****************************************** Timetable page *************************************************/
 /***********************************************************************************************************/
 .timetable-container {
@@ -460,7 +444,6 @@ tr .head th:last-child {
   display: table;
   clear: both;
 }
-
 /****************************************** Gallery page ***************************************************/
 /***********************************************************************************************************/
 #photos-gallery {
@@ -472,7 +455,6 @@ tr .head th:last-child {
 .responsive-gallery {
   padding: 5px;
 }
-
 /****************************************** Footer and Social links ****************************************/
 /***********************************************************************************************************/
 .inline-block {
@@ -516,7 +498,6 @@ tr .head th:last-child {
 .social-links-hover:hover {
   color: #E69C95;
 }
-
 /***************************** laptop max width 4000px **************************************************/
 @media only screen and (max-width: 4000px) { 
   .responsive { /* four gallery img boxes on Timetable page */
